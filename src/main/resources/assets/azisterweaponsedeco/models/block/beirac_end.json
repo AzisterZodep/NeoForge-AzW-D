@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beirac",
+  "textures": {
+    "all": "minecraft:block/end_stone_bricks",
+    "particle": "minecraft:block/end_stone_bricks",
+    "0": "minecraft:block/end_stone_bricks"
+  },
+  "render_type": "solid"
+}

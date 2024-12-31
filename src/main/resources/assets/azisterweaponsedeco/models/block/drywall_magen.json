@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywall",
+  "textures": {
+    "all": "minecraft:block/magenta_concrete",
+    "particle": "minecraft:block/magenta_concrete",
+    "0": "minecraft:block/magenta_concrete"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywall",
+  "textures": {
+    "all": "minecraft:block/red_concrete",
+    "particle": "minecraft:block/red_concrete",
+    "0": "minecraft:block/red_concrete"
+  },
+  "render_type": "solid"
+}

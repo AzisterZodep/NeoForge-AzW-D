@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/drywall_tazul"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/drywall_tazul",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/drywall_tazul",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/drywall_tazul",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "azisterweaponsedeco:custom/mist",
+  "textures": {
+    "all": "azisterweaponsedeco:block/scarfold",
+    "particle": "azisterweaponsedeco:block/scarfold",
+    "0": "azisterweaponsedeco:block/",
+    "1": "azisterweaponsedeco:block/",
+    "missing": "azisterweaponsedeco:block/"
+  },
+  "render_type": "solid"
+}

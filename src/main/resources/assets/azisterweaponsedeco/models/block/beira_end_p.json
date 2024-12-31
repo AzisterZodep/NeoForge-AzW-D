@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beira",
+  "textures": {
+    "all": "minecraft:block/purpur_block",
+    "particle": "minecraft:block/purpur_block",
+    "0": "minecraft:block/purpur_block"
+  },
+  "render_type": "solid"
+}

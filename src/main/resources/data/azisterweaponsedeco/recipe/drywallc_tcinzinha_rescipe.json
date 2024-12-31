@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:light_gray_terracotta"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:drywallc_tcinzinha",
+    "count": 1
+  }
+}

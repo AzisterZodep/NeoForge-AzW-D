@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywallc",
+  "textures": {
+    "all": "minecraft:block/pink_terracotta",
+    "particle": "minecraft:block/pink_terracotta",
+    "0": "minecraft:block/pink_terracotta"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_granite"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    },
+    {
+      "item": "minecraft:polished_granite"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_gran_ande",
+    "count": 1
+  }
+}

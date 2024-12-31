@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "azisterweaponsedeco:block/goldenmarble7",
+    "particle": "azisterweaponsedeco:block/goldenmarble7"
+  },
+  "render_type": "solid"
+}

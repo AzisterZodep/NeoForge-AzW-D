@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "azisterweaponsedeco:n_golden_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:n_golden_marble_p",
+    "count": 4
+  }
+}

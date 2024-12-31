@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": [{
+      "model": "azisterweaponsedeco:block/n_golden_marble", "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/n_golden_marble1", "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/n_golden_marble2", "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/n_golden_marble3", "weight": 1
+    }]
+  }
+}

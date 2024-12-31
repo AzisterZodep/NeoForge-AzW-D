@@ -1,0 +1,10 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiralamp",
+  "textures": {
+    "all": "minecraft:block/deepslate_bricks",
+    "particle": "minecraft:block/deepslate_bricks",
+    "0": "minecraft:block/deepslate_bricks",
+    "1": "minecraft:block/lantern"
+  },
+  "render_type": "solid"
+}

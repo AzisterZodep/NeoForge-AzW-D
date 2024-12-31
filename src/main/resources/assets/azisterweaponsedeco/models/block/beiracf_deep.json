@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiracf",
+  "textures": {
+    "all": "minecraft:block/deepslate_bricks",
+    "particle": "minecraft:block/deepslate_bricks",
+    "0": "minecraft:block/deepslate_bricks"
+  },
+  "render_type": "solid"
+}

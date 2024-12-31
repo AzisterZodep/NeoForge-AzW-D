@@ -1,0 +1,11 @@
+{
+  "parent": "azisterweaponsedeco:custom/mist",
+  "textures": {
+    "all": "minecraft:block/polished_diorite",
+    "particle": "minecraft:block/polished_diorite",
+    "0": "minecraft:block/polished_diorite",
+    "1": "minecraft:block/polished_granite",
+    "missing": "minecraft:block/polished_diorite"
+  },
+  "render_type": "solid"
+}

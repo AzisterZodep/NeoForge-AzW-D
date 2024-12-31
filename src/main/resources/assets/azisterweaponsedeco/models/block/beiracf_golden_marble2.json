@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiracf",
+  "textures": {
+    "all": "azisterweaponsedeco:block/goldenmarble3",
+    "particle": "azisterweaponsedeco:block/goldenmarble3",
+    "0": "azisterweaponsedeco:block/goldenmarble3"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/drywallc_cinzinha"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/drywallc_cinzinha",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/drywallc_cinzinha",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/drywallc_cinzinha",
+      "y": 270
+    }
+  }
+}

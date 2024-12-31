@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:piston"
+    },
+    "d": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:crusherblock",
+    "count": 1
+  }
+}

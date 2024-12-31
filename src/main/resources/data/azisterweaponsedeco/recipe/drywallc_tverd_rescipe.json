@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:green_terracotta"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:drywallc_tverd",
+    "count": 1
+  }
+}

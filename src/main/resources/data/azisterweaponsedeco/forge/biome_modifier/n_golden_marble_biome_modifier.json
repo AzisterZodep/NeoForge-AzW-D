@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "azisterweaponsedeco:n_golden_marble",
+  "step": "underground_ores"
+}

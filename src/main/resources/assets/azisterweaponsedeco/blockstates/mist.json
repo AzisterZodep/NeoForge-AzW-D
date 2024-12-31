@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/mist"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/mist",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/mist",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/mist",
+      "y": 270
+    }
+  }
+}

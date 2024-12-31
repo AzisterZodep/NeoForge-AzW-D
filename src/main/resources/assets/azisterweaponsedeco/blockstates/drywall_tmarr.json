@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/drywall_tmarr"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/drywall_tmarr",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/drywall_tmarr",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/drywall_tmarr",
+      "y": 270
+    }
+  }
+}

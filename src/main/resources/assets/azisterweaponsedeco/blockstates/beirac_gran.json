@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beirac_gran"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beirac_gran",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beirac_gran",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beirac_gran",
+      "y": 270
+    }
+  }
+}

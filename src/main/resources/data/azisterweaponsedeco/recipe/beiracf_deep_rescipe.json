@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:deepslate_bricks"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beiracf_deep",
+    "count": 1
+  }
+}

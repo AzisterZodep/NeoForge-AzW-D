@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    " c ",
+    "d a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "minecraft:netherite_sword"
+    },
+    "d": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:twilight_spike_sword",
+    "count": 1
+  }
+}

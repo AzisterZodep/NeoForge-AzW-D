@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "azisterweaponsedeco:blocks/beira_pedra",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "azisterweaponsedeco:beira_pedra"
+        }
+      ]
+    }
+  ]
+}

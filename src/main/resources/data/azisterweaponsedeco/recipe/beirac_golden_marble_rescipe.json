@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "azisterweaponsedeco:n_golden_marble_p"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beirac_golden_marble",
+    "count": 1
+  }
+}

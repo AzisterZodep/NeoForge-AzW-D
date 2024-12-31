@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beiraf_end"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beiraf_end",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beiraf_end",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beiraf_end",
+      "y": 270
+    }
+  }
+}

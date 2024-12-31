@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiracf",
+  "textures": {
+    "all": "minecraft:block/stone_bricks",
+    "particle": "minecraft:block/stone_bricks",
+    "0": "minecraft:block/stone_bricks"
+  },
+  "render_type": "solid"
+}

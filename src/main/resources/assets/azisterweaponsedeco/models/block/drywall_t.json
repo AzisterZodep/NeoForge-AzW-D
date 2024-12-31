@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywall",
+  "textures": {
+    "all": "minecraft:block/terracotta",
+    "particle": "minecraft:block/terracotta",
+    "0": "minecraft:block/terracotta"
+  },
+  "render_type": "solid"
+}

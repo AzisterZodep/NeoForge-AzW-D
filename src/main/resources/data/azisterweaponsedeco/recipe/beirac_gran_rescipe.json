@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:polished_granite"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beirac_gran",
+    "count": 1
+  }
+}

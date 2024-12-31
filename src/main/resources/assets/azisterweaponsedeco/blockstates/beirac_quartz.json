@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beirac_quartz"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beirac_quartz",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beirac_quartz",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beirac_quartz",
+      "y": 270
+    }
+  }
+}

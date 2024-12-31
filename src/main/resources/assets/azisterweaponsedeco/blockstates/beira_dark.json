@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beira_dark"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beira_dark",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beira_dark",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beira_dark",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/drywallc_trosa"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/drywallc_trosa",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/drywallc_trosa",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/drywallc_trosa",
+      "y": 270
+    }
+  }
+}

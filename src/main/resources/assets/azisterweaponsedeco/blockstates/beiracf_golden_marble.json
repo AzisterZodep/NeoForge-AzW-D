@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north": [{
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble", "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble1", "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble2", "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble3", "weight": 1
+    }],
+    "facing=east": [{
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble", "y": 90, "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble1", "y": 90, "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble2", "y": 90, "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble3", "y": 90, "weight": 1
+    }],
+    "facing=south": [{
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble", "y": 180, "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble1", "y": 180, "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble2", "y": 180, "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble3", "y": 180, "weight": 1
+    }],
+    "facing=west": [{
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble", "y": 270, "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble1", "y": 270, "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble2", "y": 270, "weight": 2
+    },
+    {
+      "model": "azisterweaponsedeco:block/beiracf_golden_marble3", "y": 270, "weight": 1
+    }]
+  }
+}

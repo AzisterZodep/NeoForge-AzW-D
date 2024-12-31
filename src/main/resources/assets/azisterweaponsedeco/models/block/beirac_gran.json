@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beirac",
+  "textures": {
+    "all": "minecraft:block/polished_granite",
+    "particle": "minecraft:block/polished_granite",
+    "0": "minecraft:block/polished_granite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beira_pedra_lamp"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beira_pedra_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beira_pedra_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beira_pedra_lamp",
+      "y": 270
+    }
+  }
+}

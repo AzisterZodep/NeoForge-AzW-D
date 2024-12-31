@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "item": "minecraft:polished_blackstone"
+    },
+    {
+      "item": "minecraft:polished_blackstone"
+    },
+    {
+      "item": "minecraft:polished_diorite"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_dior_dark",
+    "count": 1
+  }
+}

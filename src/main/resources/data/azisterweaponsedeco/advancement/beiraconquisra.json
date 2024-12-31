@@ -1,0 +1,51 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "azisterweaponsedeco:n_golden_marble_p"
+    },
+    "title": {
+      "translate": "advancements.beiraconquisra.title"
+    },
+    "description": {
+      "translate": "advancements.beiraconquisra.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "beiraconquisra_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "azisterweaponsedeco:n_hell_marble"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "azisterweaponsedeco:beira_pedra_rescipe",
+      "azisterweaponsedeco:beira_deep_rescipe",
+      "azisterweaponsedeco:beira_dark_rescipe",
+      "azisterweaponsedeco:beira_barro_rescipe",
+      "azisterweaponsedeco:beira_quartz_rescipe",
+      "azisterweaponsedeco:beira_end_rescipe",
+      "azisterweaponsedeco:beira_end_p_rescipe",
+      "azisterweaponsedeco:beira_ande_rescipe",
+      "azisterweaponsedeco:beira_dior_rescipe",
+      "azisterweaponsedeco:beira_gran_rescipe"
+    ]
+  }
+}

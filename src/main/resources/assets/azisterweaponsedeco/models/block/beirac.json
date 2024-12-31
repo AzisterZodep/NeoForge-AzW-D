@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywallc",
+  "textures": {
+    "all": "azisterweaponsedeco:block/scarfold",
+    "particle": "azisterweaponsedeco:block/scarfold",
+    "0": "azisterweaponsedeco:block/scarfold"
+  },
+  "render_type": "solid"
+}

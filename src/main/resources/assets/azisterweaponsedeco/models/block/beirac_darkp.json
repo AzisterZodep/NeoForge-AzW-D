@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beirac",
+  "textures": {
+    "all": "minecraft:block/polished_blackstone",
+    "particle": "minecraft:block/polished_blackstone",
+    "0": "minecraft:block/polished_blackstone"
+  },
+  "render_type": "solid"
+}

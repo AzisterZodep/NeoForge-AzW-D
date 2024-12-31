@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/crusherblock"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/crusherblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/crusherblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/crusherblock",
+      "y": 270
+    }
+  }
+}
