@@ -15,126 +15,119 @@ import java.util.Map;
 
 public class CrushItemProcedure {
 	public static void execute(Entity entity) {
-		if (entity == null)
-			return;
-		if (new Object() {
-			public int getAmount(int sltid) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-					if (stack != null)
-						return stack.getCount();
-				}
-				return 0;
+		if (entity == null) return;
+		if (getSlotAmount(entity, 0) > 0 && CheckCrushItemProcedure.execute(entity)) {
+			ItemStack slot4Item = getSlotItem(entity, 4);
+			ItemStack slot0Item = getSlotItem(entity, 0);
+			if (slot4Item.getItem() == Blocks.LANTERN.asItem()) {
+				handleLanternRecipes(entity, slot0Item);
+			} else {
+				handleSpecialCases(entity, slot0Item);
 			}
-		}.getAmount(0) > 0 && CheckCrushItemProcedure.execute(entity)) {
-			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-					.getItem() == AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE.get().asItem()) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.GOLD_NUGGET).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(1)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.QUARTZ).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(2)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.GRAY_DYE).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(3)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-			} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-					.getItem() == AzisterweaponsedecoModBlocks.N_HELL_MARBLE.get().asItem()) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.IRON_NUGGET).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(1)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get()).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(2)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.MAGENTA_DYE).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(3)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-			} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Items.NETHER_STAR) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(AzisterweaponsedecoModItems.ESENCIA_MORTAL.get()).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(1)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(AzisterweaponsedecoModItems.STAR.get()).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(2)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-			} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.ANCIENT_DEBRIS
-					.asItem()) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.NETHERITE_SCRAP).copy();
-					_setstack.setCount(2);
-					((Slot) _slots.get(1)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.GOLD_NUGGET).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(2)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(Items.IRON_NUGGET).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(3)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-			} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY).getItem() == Blocks.LANTERN.asItem()) {
-				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.STONE_BRICKS.asItem()) {
-					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PEDRA_LAMP.get()).copy();
-						_setstack.setCount(1);
-						((Slot) _slots.get(2)).set(_setstack);
-						_player.containerMenu.broadcastChanges();
-					}
-				}
-				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.DEEPSLATE_BRICKS.asItem()) {
-					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DEEP_LAMP.get()).copy();
-						_setstack.setCount(1);
-						((Slot) _slots.get(2)).set(_setstack);
-						_player.containerMenu.broadcastChanges();
-					}
-				}
-				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.POLISHED_BLACKSTONE_BRICKS
-						.asItem()) {
-					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARK_LAMP.get()).copy();
-						_setstack.setCount(1);
-						((Slot) _slots.get(2)).set(_setstack);
-						_player.containerMenu.broadcastChanges();
-					}
-				}
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					((Slot) _slots.get(4)).remove(1);
-					_player.containerMenu.broadcastChanges();
-				}
-			}
-			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				((Slot) _slots.get(0)).remove(1);
-				_player.containerMenu.broadcastChanges();
-			}
+			removeSlotItem(entity, 0, 1);
+		}
+	}
+
+	private static void handleLanternRecipes(Entity entity, ItemStack slot0Item) {
+		switch (slot0Item.getItem().toString()) {
+			case "minecraft:stone_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PEDRA_LAMP.get()));
+				break;
+			case "minecraft:deepslate_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DEEP_LAMP.get()));
+				break;
+			case "minecraft:polished_blackstone_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARK_LAMP.get()));
+				break;
+			case "minecraft:mud_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_BARRO_LAMP.get()));
+				break;
+			case "minecraft:bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_TIJOLO_LAMP.get()));
+				break;
+			case "minecraft:quartz_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_QUARTZ_LAMP.get()));
+				break;
+			case "minecraft:end_stone_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_END_LAMP.get()));
+				break;
+			case "minecraft:purpur_block":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_END_P_LAMP.get()));
+				break;
+			case "minecraft:polished_andesite":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_ANDE_LAMP.get()));
+				break;
+			case "minecraft:polished_diorite":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DIOR_LAMP.get()));
+				break;
+			case "minecraft:polished_granite":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_GRAN_LAMP.get()));
+				break;
+			case "minecraft:polished_blackstone":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARKP_LAMP.get()));
+				break;
+			case "azisterweaponsedeco:n_golden_marble_p":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_GOLDEN_MARBLE_LAMP.get()));
+				break;
+			case "azisterweaponsedeco:n_hell_marble":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_N_HELL_MARBLE_LAMP.get()));
+				break;
+		}
+
+		removeSlotItem(entity, 4, 1);
+	}
+
+	private static void handleSpecialCases(Entity entity, ItemStack slot0Item) {
+		switch (slot0Item.getItem().toString()) {
+			case "azisterweaponsedeco:n_golden_marble":
+				setOutputSlot(entity, 1, new ItemStack(Items.GOLD_NUGGET));
+				setOutputSlot(entity, 2, new ItemStack(Items.QUARTZ));
+				setOutputSlot(entity, 3, new ItemStack(Items.GRAY_DYE));
+				break;
+			case "azisterweaponsedeco:n_hell_marble":
+				setOutputSlot(entity, 1, new ItemStack(Items.IRON_NUGGET));
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get()));
+				setOutputSlot(entity, 3, new ItemStack(Items.MAGENTA_DYE));
+				break;
+			case "minecraft:nether_star":
+				setOutputSlot(entity, 1, new ItemStack(AzisterweaponsedecoModItems.ESENCIA_MORTAL.get()));
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.STAR.get()));
+				break;
+			case "minecraft:ancient_debris":
+				setOutputSlot(entity, 1, new ItemStack(Items.NETHERITE_SCRAP, 2));
+				setOutputSlot(entity, 2, new ItemStack(Items.GOLD_NUGGET));
+				setOutputSlot(entity, 3, new ItemStack(Items.IRON_NUGGET));
+				break;
+		}
+	}
+
+	private static int getSlotAmount(Entity entity, int slotId) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier<?> supplier && supplier.get() instanceof Map<?, ?> slots) {
+			ItemStack stack = ((Slot) slots.get(slotId)).getItem();
+			return stack != null ? stack.getCount() : 0;
+		}
+		return 0;
+	}
+
+	private static ItemStack getSlotItem(Entity entity, int slotId) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier<?> supplier && supplier.get() instanceof Map<?, ?> slots) {
+			return ((Slot) slots.get(slotId)).getItem();
+		}
+		return ItemStack.EMPTY;
+	}
+
+	private static void setOutputSlot(Entity entity, int slotId, ItemStack stack) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier<?> supplier && supplier.get() instanceof Map<?, ?> slots) {
+			stack.setCount(1);
+			((Slot) slots.get(slotId)).set(stack);
+			player.containerMenu.broadcastChanges();
+		}
+	}
+
+	private static void removeSlotItem(Entity entity, int slotId, int count) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier<?> supplier && supplier.get() instanceof Map<?, ?> slots) {
+			((Slot) slots.get(slotId)).remove(count);
+			player.containerMenu.broadcastChanges();
 		}
 	}
 }

@@ -19,12 +19,13 @@ import net.minecraft.core.BlockPos;
 import net.azister.azisterweaponsedeco.world.inventory.CrucherMenu;
 import net.azister.azisterweaponsedeco.procedures.CrushItemProcedure;
 import net.azister.azisterweaponsedeco.AzisterweaponsedecoMod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.HashMap;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public record CrucherButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
-
 	public static final Type<CrucherButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(AzisterweaponsedecoMod.MODID, "crucher_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, CrucherButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, CrucherButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
@@ -56,11 +57,9 @@ public record CrucherButtonMessage(int buttonID, int x, int y, int z) implements
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
 		HashMap guistate = CrucherMenu.guistate;
-		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
 		if (buttonID == 0) {
-
 			CrushItemProcedure.execute(entity);
 		}
 	}

@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beira",
+  "textures": {
+    "all": "azisterweaponsedeco:block/hellmarble3",
+    "particle": "azisterweaponsedeco:block/hellmarble3",
+    "0": "azisterweaponsedeco:block/hellmarble3"
+  },
+  "render_type": "solid"
+}

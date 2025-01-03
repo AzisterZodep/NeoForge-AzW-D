@@ -1,8 +1,6 @@
 
 package net.azister.azisterweaponsedeco.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -26,12 +24,12 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-public class BeiraPedraLampBlock extends Block implements SimpleWaterloggedBlock {
+public class BeiraLampBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public BeiraPedraLampBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3.5f, 6f).lightLevel(s -> 10).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+	public BeiraLampBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3.5f, 6f).lightLevel(s -> 12).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 

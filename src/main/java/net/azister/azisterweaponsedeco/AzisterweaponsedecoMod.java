@@ -50,7 +50,6 @@ public class AzisterweaponsedecoMod {
         AzisterweaponsedecoModEntities.REGISTRY.register(modEventBus);
         AzisterweaponsedecoModTabs.REGISTRY.register(modEventBus);
         AzisterweaponsedecoModVariables.ATTACHMENT_TYPES.register(modEventBus);
-
         AzisterweaponsedecoModMenus.REGISTRY.register(modEventBus);
 
         // Start of user code block mod init

@@ -1,5 +1,6 @@
 package net.azister.azisterweaponsedeco.block.entity;
 
+import net.azister.azisterweaponsedeco.procedures.CrushItemProcedure;
 import net.neoforged.neoforge.items.wrapper.SidedInvWrapper;
 
 import net.minecraft.world.level.block.state.BlockState;
@@ -26,8 +27,11 @@ import javax.annotation.Nullable;
 import java.util.stream.IntStream;
 
 import io.netty.buffer.Unpooled;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class CrusherblockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+	private static final Logger LOGGER = LogManager.getLogger(CrushItemProcedure.class);
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 	private final SidedInvWrapper handler = new SidedInvWrapper(this, null);
 
@@ -86,6 +90,7 @@ public class CrusherblockBlockEntity extends RandomizableContainerBlockEntity im
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
+		LOGGER.debug("createMenu");
 		return new CrucherMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 

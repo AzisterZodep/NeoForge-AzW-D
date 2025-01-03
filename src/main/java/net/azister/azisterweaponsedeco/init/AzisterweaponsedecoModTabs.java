@@ -4,6 +4,9 @@
  */
 package net.azister.azisterweaponsedeco.init;
 
+import net.azister.azisterweaponsedeco.block.MistBlock;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
@@ -21,6 +24,8 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.N_HELL_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.STEPS.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.CRUSHERBLOCK.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_PEDRA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DEEP.get().asItem());
@@ -35,6 +40,8 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_GRAN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DARKP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_GOLDEN_MARBLE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_N_HELL_MARBLE.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC_PEDRA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC_DEEP.get().asItem());
@@ -49,41 +56,69 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC_GRAN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC_DARKP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC_GOLDEN_MARBLE.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_DARK.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_GRAN.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_ANDE.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_GRAN.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_ANDE.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_ANDE.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.CRUSHERBLOCK.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_PEDRA_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DEEP_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DARK_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_BARRO_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_QUARTZ_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_END_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_END_P_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_ANDE_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAC_N_HELL_MARBLE.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_PEDRA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_DEEP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_DARK.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_BARRO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_TIJOLO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_END.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_END_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_DIOR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_GRAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_DARKP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_GOLDEN_MARBLE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_N_HELL_MARBLE.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_PEDRA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_DEEP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_DARK.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_BARRO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_TIJOLO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_END.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_END_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_DIOR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_GRAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_DARKP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_GOLDEN_MARBLE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_N_HELL_MARBLE.get().asItem());
+
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_ANDE_GMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_ANDE_HMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_DARK.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_GRAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_GMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_HMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_ANDE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_GRAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_ANDE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_GMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_HMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GMAR_HMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_ANDE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_GMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_HMARB.get().asItem());
+
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_PEDRA_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DEEP_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DARK_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_BARRO_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_TIJOLO_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_QUARTZ_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_END_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_END_P_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_ANDE_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DIOR_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_GRAN_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_DARKP_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_GOLDEN_MARBLE_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_N_HELL_MARBLE_LAMP.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_T.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_TBRANCO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_TCINZINHA.get().asItem());
@@ -101,10 +136,6 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_TROXO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_TMAGEN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_TROSA.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_DARKP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_DARKP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_TIJOLO.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_TIJOLO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_BRANCO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_CINZINHA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALL_CINZA.get().asItem());
@@ -154,8 +185,6 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALLC_ROXO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALLC_MAGEN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALLC_ROSA.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_GOLDEN_MARBLE.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.BEIRACF_GOLDEN_MARBLE.get().asItem());
 	}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> AZISTER_WEAPONS = REGISTRY.register("azister_weapons", () -> CreativeModeTab.builder().title(Component.translatable("item_group.azisterweaponsedeco.azister_weapons")).icon(() -> new ItemStack(AzisterweaponsedecoModItems.TWILIGHT_SPIKE_SWORD.get())).displayItems((parameters, tabData) -> {
 		tabData.accept(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get());

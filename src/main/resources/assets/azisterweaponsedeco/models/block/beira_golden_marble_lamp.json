@@ -1,0 +1,10 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiralamp",
+  "textures": {
+    "all": "azisterweaponsedeco:block/goldenmarble2",
+    "particle": "azisterweaponsedeco:block/goldenmarble2",
+    "0": "azisterweaponsedeco:block/goldenmarble2",
+    "1": "minecraft:block/lantern"
+  },
+  "render_type": "solid"
+}

@@ -1,5 +1,6 @@
 package net.azister.azisterweaponsedeco.client.gui;
 
+import net.azister.azisterweaponsedeco.procedures.CrushItemProcedure;
 import net.neoforged.neoforge.network.PacketDistributor;
 
 import net.minecraft.world.level.Level;
@@ -20,7 +21,11 @@ import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class CrucherScreen extends AbstractContainerScreen<CrucherMenu> {
+	private static final Logger LOGGER = LogManager.getLogger(CrucherScreen.class);
 	private final static HashMap<String, Object> guistate = CrucherMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
@@ -83,11 +88,12 @@ public class CrucherScreen extends AbstractContainerScreen<CrucherMenu> {
 				CrucherButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}, this.font) {
-			@Override
+			/*@Override
 			public void renderWidget(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
 				this.visible = CheckCrushItemProcedure.execute(entity);
+				LOGGER.debug("entity> "+entity+" "+this.visible);
 				super.renderWidget(guiGraphics, gx, gy, ticks);
-			}
+			}*/
 		};
 		guistate.put("button:button_empty", button_empty);
 		this.addRenderableWidget(button_empty);
