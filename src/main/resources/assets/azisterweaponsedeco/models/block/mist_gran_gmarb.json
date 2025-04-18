@@ -1,0 +1,11 @@
+{
+  "parent": "azisterweaponsedeco:custom/mist",
+  "textures": {
+    "all": "minecraft:block/polished_granite",
+    "particle": "minecraft:block/polished_granite",
+    "0": "minecraft:block/polished_granite",
+    "1": "azisterweaponsedeco:block/goldenmarble1",
+    "missing": "minecraft:block/polished_granite"
+  },
+  "render_type": "solid"
+}

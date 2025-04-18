@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:waxed_weathered_cut_copper"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beiracf_cobrec2",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "azisterweaponsedeco:custom/mist",
+  "textures": {
+    "all": "minecraft:block/polished_andesite",
+    "particle": "minecraft:block/polished_andesite",
+    "0": "minecraft:block/polished_andesite",
+    "1": "azisterweaponsedeco:block/hellmarble2",
+    "missing": "minecraft:block/polished_andesite"
+  },
+  "render_type": "solid"
+}

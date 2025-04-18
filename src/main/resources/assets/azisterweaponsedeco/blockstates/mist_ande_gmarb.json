@@ -1,0 +1,52 @@
+{
+  "variants": {
+"facing=north": [{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb", "weight": 1
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb1", "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb2", "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb3", "weight": 1
+}],
+"facing=east": [{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb", "y": 90, "weight": 1
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb1", "y": 90, "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb2", "y": 90, "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb3", "y": 90, "weight": 1
+}],
+"facing=south": [{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb", "y": 180, "weight": 1
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb1", "y": 180, "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb2", "y": 180, "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb3", "y": 180, "weight": 1
+}],
+"facing=west": [{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb", "y": 270, "weight": 1
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb1", "y": 270, "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb2", "y": 270, "weight": 2
+},
+{
+"model": "azisterweaponsedeco:block/mist_ande_gmarb3", "y": 270, "weight": 1
+}]
+}
+}

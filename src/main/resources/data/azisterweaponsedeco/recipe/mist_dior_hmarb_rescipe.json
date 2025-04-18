@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "item": "azisterweaponsedeco:n_hell_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_hell_marble"
+    },
+    {
+      "item": "minecraft:polished_diorite"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_dior_hmarb",
+    "count": 1
+  }
+}

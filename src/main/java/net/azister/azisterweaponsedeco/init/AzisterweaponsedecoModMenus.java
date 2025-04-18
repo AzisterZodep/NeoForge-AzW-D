@@ -1,7 +1,3 @@
-
-/*
- *	MCreator note: This file will be REGENERATED on each build.
- */
 package net.azister.azisterweaponsedeco.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;

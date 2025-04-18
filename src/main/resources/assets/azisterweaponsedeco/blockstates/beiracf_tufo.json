@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beiracf_tufo"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beiracf_tufo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beiracf_tufo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beiracf_tufo",
+      "y": 270
+    }
+  }
+}

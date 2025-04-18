@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beirac",
+  "textures": {
+    "all": "minecraft:block/dark_prismarine",
+    "particle": "minecraft:block/dark_prismarine",
+    "0": "minecraft:block/dark_prismarine"
+  },
+  "render_type": "solid"
+}

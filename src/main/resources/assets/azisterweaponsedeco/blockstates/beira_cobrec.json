@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "azisterweaponsedeco:block/beira_cobrec"
+    },
+    "facing=east": {
+      "model": "azisterweaponsedeco:block/beira_cobrec",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "azisterweaponsedeco:block/beira_cobrec",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "azisterweaponsedeco:block/beira_cobrec",
+      "y": 270
+    }
+  }
+}

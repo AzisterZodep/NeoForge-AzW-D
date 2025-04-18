@@ -1,0 +1,11 @@
+{
+  "parent": "azisterweaponsedeco:custom/mist",
+  "textures": {
+    "all": "minecraft:block/polished_blackstone",
+    "particle": "minecraft:block/polished_blackstone",
+    "0": "minecraft:block/polished_blackstone",
+    "1": "azisterweaponsedeco:block/goldenmarble1",
+    "missing": "minecraft:block/polished_blackstone"
+  },
+  "render_type": "solid"
+}

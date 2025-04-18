@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:prismarine_bricks"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beira_prism",
+    "count": 1
+  }
+}

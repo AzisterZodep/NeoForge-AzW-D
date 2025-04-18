@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "azisterweaponsedeco:n_golden_marble_p"
+    },
+    {
+      "item": "azisterweaponsedeco:n_hell_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_hell_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble_p"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_gmarb_hmarb",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiraf",
+  "textures": {
+    "all": "minecraft:block/weathered_copper",
+    "particle": "minecraft:block/weathered_copper",
+    "0": "minecraft:block/weathered_copper"
+  },
+  "render_type": "solid"
+}

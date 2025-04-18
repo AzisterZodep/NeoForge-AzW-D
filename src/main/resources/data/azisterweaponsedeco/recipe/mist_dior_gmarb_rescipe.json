@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble_p"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble_p"
+    },
+    {
+      "item": "minecraft:polished_diorite"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_dior_gmarb",
+    "count": 1
+  }
+}

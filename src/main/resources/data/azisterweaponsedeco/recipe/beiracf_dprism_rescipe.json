@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dark_prismarine"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beiracf_dprism",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_granite"
+    },
+    {
+      "item": "azisterweaponsedeco:n_hell_marble"
+    },
+    {
+      "item": "azisterweaponsedeco:n_hell_marble"
+    },
+    {
+      "item": "minecraft:polished_granite"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_gran_hmarb",
+    "count": 1
+  }
+}

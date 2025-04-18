@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiracf",
+  "textures": {
+    "all": "minecraft:block/cut_copper",
+    "particle": "minecraft:block/cut_copper",
+    "0": "minecraft:block/cut_copper"
+  },
+  "render_type": "solid"
+}

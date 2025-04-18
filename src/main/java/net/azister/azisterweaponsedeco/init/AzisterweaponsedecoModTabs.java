@@ -1,12 +1,11 @@
 
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package net.azister.azisterweaponsedeco.init;
 
 import net.azister.azisterweaponsedeco.block.MistBlock;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
@@ -99,7 +98,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DARK_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_GMARB.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.MIST_DIOR_HMARB.get().asItem());
-		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GMAR_HMARB.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GMARB_HMARB.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_GMARB.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.MIST_GRAN_HMARB.get().asItem());
@@ -185,6 +184,25 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALLC_ROXO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALLC_MAGEN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModBlocks.DRYWALLC_ROSA.get().asItem());
+
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE1.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE2.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE3.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC1.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC2.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC3.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE1_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE2_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBRE3_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC1_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC2_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRA_COBREC3_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_PRISM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModBlocks.BEIRAF_DPRISM.get().asItem());
 	}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> AZISTER_WEAPONS = REGISTRY.register("azister_weapons", () -> CreativeModeTab.builder().title(Component.translatable("item_group.azisterweaponsedeco.azister_weapons")).icon(() -> new ItemStack(AzisterweaponsedecoModItems.TWILIGHT_SPIKE_SWORD.get())).displayItems((parameters, tabData) -> {
 		tabData.accept(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get());

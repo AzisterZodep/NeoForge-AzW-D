@@ -1,0 +1,11 @@
+{
+  "parent": "azisterweaponsedeco:custom/mist",
+  "textures": {
+    "all": "azisterweaponsedeco:block/hellmarble1",
+    "particle": "azisterweaponsedeco:block/hellmarble1",
+    "0": "azisterweaponsedeco:block/hellmarble1",
+    "1": "azisterweaponsedeco:block/goldenmarble4",
+    "missing": "azisterweaponsedeco:block/hellmarble1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_andesite"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble_p"
+    },
+    {
+      "item": "azisterweaponsedeco:n_golden_marble_p"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:mist_ande_gmarb",
+    "count": 1
+  }
+}

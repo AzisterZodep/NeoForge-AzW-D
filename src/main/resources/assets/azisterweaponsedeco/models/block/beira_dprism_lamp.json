@@ -1,0 +1,10 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiralamp",
+  "textures": {
+    "all": "minecraft:block/dark_prismarine",
+    "particle": "minecraft:block/dark_prismarine",
+    "0": "minecraft:block/dark_prismarine",
+    "1": "minecraft:block/lantern"
+  },
+  "render_type": "solid"
+}
