@@ -1,0 +1,61 @@
+package net.azister.azisterweaponsedeco.item;
+
+
+import net.azister.azisterweaponsedeco.init.AzisterweaponsedecoModItems;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+
+/*    */
+/*    */ public class WeatherCopperAxeItem
+/*    */   extends CopperAxeCode {
+/*    */   public ItemStack newItem() {
+/* 17 */     return new ItemStack((ItemLike)AzisterweaponsedecoModItems.OXIDIZED_COPPER_AXE.get());
+/*    */   }
+/* 19 */   private static final Tier TOOL_TIER = new Tier()
+/*    */     {
+/*    */       public int getUses() {
+/* 22 */         return 20;
+/*    */       }
+/*    */
+/*    */
+/*    */       public float getSpeed() {
+    return 5.0F;
+}
+/*    */
+/*    */
+/*    */       public float getAttackDamageBonus() {
+/* 32 */         return 2.0F;
+/*    */       }
+/*    */
+/*    */
+/*    */       public TagKey<Block> getIncorrectBlocksForDrops() {
+/* 37 */         return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
+/*    */       }
+/*    */
+/*    */
+/*    */       public int getEnchantmentValue() {
+/* 42 */         return 5;
+/*    */       }
+/*    */
+/*    */
+/*    */       public Ingredient getRepairIngredient() {
+/* 47 */         return null;
+/*    */       }
+/*    */     };
+/*    */
+/*    */   public WeatherCopperAxeItem() {
+/* 52 */     super(TOOL_TIER, (new Properties()).attributes(AxeItem.createAttributes(TOOL_TIER, 6.0F, -3.2F)));
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\User\Documents\azisterweaponsedeco-0.2.1.jar!\net\azister\azisterweaponsedeco\item\WeatherCopperSwordItem.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.1.3
+ */

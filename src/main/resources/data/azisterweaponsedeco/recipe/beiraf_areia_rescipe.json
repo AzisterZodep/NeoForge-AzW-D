@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:smooth_sandstone"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:beiraf_areia",
+    "count": 1
+  }
+}

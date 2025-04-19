@@ -52,9 +52,3 @@
 /* 52 */     super(TOOL_TIER, (new Item.Properties()).attributes(SwordItem.createAttributes(TOOL_TIER, 2.0F, -2.0F)));
 /*    */   }
 /*    */ }
-
-
-/* Location:              C:\Users\User\Documents\azisterweaponsedeco-0.2.1.jar!\net\azister\azisterweaponsedeco\item\RefCopperSwordItem.class
- * Java compiler version: 21 (65.0)
- * JD-Core Version:       1.1.3
- */

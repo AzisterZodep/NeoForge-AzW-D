@@ -3,9 +3,9 @@
   "group": "azswords",
   "category": "misc",
   "pattern": [
-    "a",
-    "a",
-    "b"
+    "aa",
+    "ab",
+    " b"
   ],
   "key": {
     "a": {
@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "id": "azisterweaponsedeco:copper_sword",
+    "id": "azisterweaponsedeco:copper_axe",
     "count": 1
   }
 }

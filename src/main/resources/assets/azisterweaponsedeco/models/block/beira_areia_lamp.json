@@ -1,0 +1,10 @@
+{
+  "parent": "azisterweaponsedeco:custom/beiralamp",
+  "textures": {
+    "all": "minecraft:block/sandstone_top",
+    "particle": "minecraft:block/sandstone_top",
+    "0": "minecraft:block/sandstone_top",
+    "1": "minecraft:block/lantern"
+  },
+  "render_type": "solid"
+}

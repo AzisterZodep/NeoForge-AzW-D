@@ -72,6 +72,39 @@ public class CrushItemProcedure {
 			case "azisterweaponsedeco:n_hell_marble":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_N_HELL_MARBLE_LAMP.get()));
 				break;
+			case "minecraft:waxed_copper_block":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBRE_LAMP.get()));
+				break;
+			case "minecraft:waxed_exposed_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBRE1_LAMP.get()));
+				break;
+			case "minecraft:waxed_weathered_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBRE2_LAMP.get()));
+				break;
+			case "minecraft:waxed_oxidized_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBRE3_LAMP.get()));
+				break;
+			case "minecraft:waxed_cut_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBREC_LAMP.get()));
+				break;
+			case "minecraft:waxed_exposed_cut_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBREC1_LAMP.get()));
+				break;
+			case "minecraft:waxed_weathered_cut_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBREC2_LAMP.get()));
+				break;
+			case "minecraft:waxed_oxidized_cut_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBREC3_LAMP.get()));
+				break;
+			case "minecraft:prismarine_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PRISM_LAMP.get()));
+				break;
+			case "minecraft:dark_prismarine":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DPRISM_LAMP.get()));
+				break;
+			case "minecraft:smooth_sandstone":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_AREIA_LAMP.get()));
+				break;
 		}
 
 		removeSlotItem(entity, 4, 1);

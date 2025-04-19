@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "azswords",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "azisterweaponsedeco:copper_axe"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:ref_copper_axe",
+    "count": 1
+  }
+}
