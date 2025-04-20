@@ -14,6 +14,7 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> BEIRAC = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC);
    public static final DeferredItem<Item> BEIRACF_ANDE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_ANDE);
    public static final DeferredItem<Item> BEIRACF_AREIA = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_AREIA);
+   public static final DeferredItem<Item> BEIRACF_AREIAV = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_AREIAV);
    public static final DeferredItem<Item> BEIRACF_BARRO = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_BARRO);
    public static final DeferredItem<Item> BEIRACF_COBRE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_COBRE);
    public static final DeferredItem<Item> BEIRACF_COBRE1 = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_COBRE1);
@@ -40,6 +41,7 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> BEIRACF_DPRISM = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRACF_DPRISM);
    public static final DeferredItem<Item> BEIRAC_ANDE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_ANDE);
    public static final DeferredItem<Item> BEIRAC_AREIA = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_AREIA);
+   public static final DeferredItem<Item> BEIRAC_AREIAV = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_AREIAV);
    public static final DeferredItem<Item> BEIRAC_BARRO = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_BARRO);
    public static final DeferredItem<Item> BEIRAC_COBRE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_COBRE);
    public static final DeferredItem<Item> BEIRAC_COBRE1 = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_COBRE1);
@@ -66,6 +68,7 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> BEIRAC_TUFO = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAC_TUFO);
    public static final DeferredItem<Item> BEIRAF_ANDE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_ANDE);
    public static final DeferredItem<Item> BEIRAF_AREIA = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_AREIA);
+   public static final DeferredItem<Item> BEIRAF_AREIAV = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_AREIAV);
    public static final DeferredItem<Item> BEIRAF_BARRO = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_BARRO);
    public static final DeferredItem<Item> BEIRAF_COBRE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_COBRE);
    public static final DeferredItem<Item> BEIRAF_COBRE1 = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_COBRE1);
@@ -92,8 +95,10 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> BEIRAF_DPRISM = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRAF_DPRISM);
    public static final DeferredItem<Item> BEIRA_ANDE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_ANDE);
    public static final DeferredItem<Item> BEIRA_AREIA = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_AREIA);
+   public static final DeferredItem<Item> BEIRA_AREIAV = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_AREIAV);
    public static final DeferredItem<Item> BEIRA_ANDE_LAMP = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_ANDE_LAMP);
    public static final DeferredItem<Item> BEIRA_AREIA_LAMP = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_AREIA_LAMP);
+   public static final DeferredItem<Item> BEIRA_AREIAV_LAMP = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_AREIAV_LAMP);
    public static final DeferredItem<Item> BEIRA_BARRO = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_BARRO);
    public static final DeferredItem<Item> BEIRA_BARRO_LAMP = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_BARRO_LAMP);
    public static final DeferredItem<Item> BEIRA_COBRE = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_COBRE);
@@ -235,11 +240,17 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> EXPOSED_COPPER_AXE = REGISTRY.register("exposed_copper_axe", net.azister.azisterweaponsedeco.item.ExpoCopperAxeItem::new);
    public static final DeferredItem<Item> COPPER_AXE = REGISTRY.register("copper_axe", net.azister.azisterweaponsedeco.item.CopperAxeItem::new);
    public static final DeferredItem<Item> REF_COPPER_AXE = REGISTRY.register("ref_copper_axe", net.azister.azisterweaponsedeco.item.RefCopperAxeItem::new);
+   public static final DeferredItem<Item> OXIDIZED_COPPER_PICKAXE = REGISTRY.register("oxidized_copper_pickaxe", net.azister.azisterweaponsedeco.item.OxiCopperPickaxeItem::new);
+   public static final DeferredItem<Item> WEATHERED_COPPER_PICKAXE = REGISTRY.register("weathered_copper_pickaxe", net.azister.azisterweaponsedeco.item.WeatherCopperPickaxeItem::new);
+   public static final DeferredItem<Item> EXPOSED_COPPER_PICKAXE = REGISTRY.register("exposed_copper_pickaxe", net.azister.azisterweaponsedeco.item.ExpoCopperPickaxeItem::new);
+   public static final DeferredItem<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", net.azister.azisterweaponsedeco.item.CopperPickaxeItem::new);
+   public static final DeferredItem<Item> REF_COPPER_PICKAXE = REGISTRY.register("ref_copper_pickaxe", net.azister.azisterweaponsedeco.item.RefCopperPickaxeItem::new);
    public static final DeferredItem<Item> OXIDIZED_COPPER_SWORD = REGISTRY.register("oxidized_copper_sword", net.azister.azisterweaponsedeco.item.OxiCopperSwordItem::new);
    public static final DeferredItem<Item> WEATHERED_COPPER_SWORD = REGISTRY.register("weathered_copper_sword", net.azister.azisterweaponsedeco.item.WeatherCopperSwordItem::new);
    public static final DeferredItem<Item> EXPOSED_COPPER_SWORD = REGISTRY.register("exposed_copper_sword", net.azister.azisterweaponsedeco.item.ExpoCopperSwordItem::new);
    public static final DeferredItem<Item> COPPER_SWORD = REGISTRY.register("copper_sword", net.azister.azisterweaponsedeco.item.CopperSwordItem::new);
    public static final DeferredItem<Item> REF_COPPER_SWORD = REGISTRY.register("ref_copper_sword", net.azister.azisterweaponsedeco.item.RefCopperSwordItem::new);
+   public static final DeferredItem<Item> REF_IRON_AXE = REGISTRY.register("ref_iron_axe", net.azister.azisterweaponsedeco.item.RefIronAxeItem::new);
    public static final DeferredItem<Item> REF_IRON_SWORD = REGISTRY.register("ref_iron_sword", net.azister.azisterweaponsedeco.item.RefIronSwordItem::new);
    public static final DeferredItem<Item> STAR = REGISTRY.register("star", net.azister.azisterweaponsedeco.item.StarItem::new);
    public static final DeferredItem<Item> STEPS = block((DeferredHolder)AzisterweaponsedecoModBlocks.STEPS);

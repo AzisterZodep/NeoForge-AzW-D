@@ -30,47 +30,17 @@ public class CrushItemProcedure {
 
 	private static void handleLanternRecipes(Entity entity, ItemStack slot0Item) {
 		switch (slot0Item.getItem().toString()) {
-			case "minecraft:stone_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PEDRA_LAMP.get()));
-				break;
-			case "minecraft:deepslate_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DEEP_LAMP.get()));
-				break;
-			case "minecraft:polished_blackstone_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARK_LAMP.get()));
-				break;
-			case "minecraft:mud_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_BARRO_LAMP.get()));
-				break;
-			case "minecraft:bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_TIJOLO_LAMP.get()));
-				break;
-			case "minecraft:quartz_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_QUARTZ_LAMP.get()));
-				break;
-			case "minecraft:end_stone_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_END_LAMP.get()));
-				break;
-			case "minecraft:purpur_block":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_END_P_LAMP.get()));
-				break;
 			case "minecraft:polished_andesite":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_ANDE_LAMP.get()));
 				break;
-			case "minecraft:polished_diorite":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DIOR_LAMP.get()));
+			case "minecraft:smooth_sandstone":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_AREIA_LAMP.get()));
 				break;
-			case "minecraft:polished_granite":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_GRAN_LAMP.get()));
+			case "minecraft:smooth_red_sandstone":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_AREIAV_LAMP.get()));
 				break;
-			case "minecraft:polished_blackstone":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARKP_LAMP.get()));
-				break;
-			case "azisterweaponsedeco:n_golden_marble_p":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_GOLDEN_MARBLE_LAMP.get()));
-				break;
-			case "azisterweaponsedeco:n_hell_marble":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_N_HELL_MARBLE_LAMP.get()));
+			case "minecraft:mud_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_BARRO_LAMP.get()));
 				break;
 			case "minecraft:waxed_copper_block":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBRE_LAMP.get()));
@@ -96,14 +66,50 @@ public class CrushItemProcedure {
 			case "minecraft:waxed_oxidized_cut_copper":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_COBREC3_LAMP.get()));
 				break;
-			case "minecraft:prismarine_bricks":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PRISM_LAMP.get()));
+			case "minecraft:polished_blackstone_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARK_LAMP.get()));
+				break;
+			case "minecraft:polished_blackstone":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DARKP_LAMP.get()));
+				break;
+			case "minecraft:deepslate_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DEEP_LAMP.get()));
+				break;
+			case "minecraft:polished_diorite":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DIOR_LAMP.get()));
 				break;
 			case "minecraft:dark_prismarine":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_DPRISM_LAMP.get()));
 				break;
-			case "minecraft:smooth_sandstone":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_AREIA_LAMP.get()));
+			case "minecraft:purpur_block":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_END_P_LAMP.get()));
+				break;
+			case "azisterweaponsedeco:n_golden_marble_p":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_GOLDEN_MARBLE_LAMP.get()));
+				break;
+			case "minecraft:polished_granite":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_GRAN_LAMP.get()));
+				break;
+			case "minecraft:end_stone_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_END_LAMP.get()));
+				break;
+			case "azisterweaponsedeco:n_hell_marble":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_N_HELL_MARBLE_LAMP.get()));
+				break;
+			case "minecraft:stone_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PEDRA_LAMP.get()));
+				break;
+			case "minecraft:prismarine_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PRISM_LAMP.get()));
+				break;
+			case "minecraft:quartz_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_QUARTZ_LAMP.get()));
+				break;
+			case "minecraft:bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_TIJOLO_LAMP.get()));
+				break;
+			case "minecraft:tuff_bricks":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_TUFO_LAMP.get()));
 				break;
 		}
 

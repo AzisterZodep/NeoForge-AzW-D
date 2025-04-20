@@ -11,9 +11,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 
-/*    */
-/*    */ public class ExpoCopperAxeItem
-/*    */   extends CopperAxeCode {
+
+/*    */ public class ExpoCopperAxeItem extends CopperAxeCode {
 /*    */   public ItemStack newItem() {
 /* 17 */     return new ItemStack((ItemLike)AzisterweaponsedecoModItems.WEATHERED_COPPER_AXE.get());
 /*    */   }
@@ -53,9 +52,3 @@ import net.minecraft.world.level.block.Block;
 /* 52 */     super(TOOL_TIER, (new Properties()).attributes(AxeItem.createAttributes(TOOL_TIER, 6.0F, -3.0F)));
 /*    */   }
 /*    */ }
-
-
-/* Location:              C:\Users\User\Documents\azisterweaponsedeco-0.2.1.jar!\net\azister\azisterweaponsedeco\item\ExpoCopperSwordItem.class
- * Java compiler version: 21 (65.0)
- * JD-Core Version:       1.1.3
- */

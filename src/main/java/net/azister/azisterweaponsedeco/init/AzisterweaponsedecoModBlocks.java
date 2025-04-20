@@ -15,7 +15,7 @@ public class AzisterweaponsedecoModBlocks {
 
 	public static final DeferredBlock<Block> BEIRA_ANDE = REGISTRY.register("beira_ande", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRA_AREIA = REGISTRY.register("beira_areia", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
-	public static final DeferredBlock<Block> BEIRA_AREIAV = REGISTRY.register("beira_areiav", net.azister.azisterweaponsedeco.block.BeiraLampBlock::new);
+	public static final DeferredBlock<Block> BEIRA_AREIAV = REGISTRY.register("beira_areiav", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRA_BARRO = REGISTRY.register("beira_barro", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRA_COBRE = REGISTRY.register("beira_cobre", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRA_COBRE1 = REGISTRY.register("beira_cobre1", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
@@ -43,7 +43,7 @@ public class AzisterweaponsedecoModBlocks {
 
 	public static final DeferredBlock<Block> BEIRAC_ANDE = REGISTRY.register("beirac_ande", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRAC_AREIA = REGISTRY.register("beirac_areia", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
-	public static final DeferredBlock<Block> BEIRAC_AREIAV = REGISTRY.register("beirac_areiav", net.azister.azisterweaponsedeco.block.BeiraLampBlock::new);
+	public static final DeferredBlock<Block> BEIRAC_AREIAV = REGISTRY.register("beirac_areiav", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRAC_BARRO = REGISTRY.register("beirac_barro", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRAC_COBRE = REGISTRY.register("beirac_cobre", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRAC_COBRE1 = REGISTRY.register("beirac_cobre1", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
@@ -70,8 +70,8 @@ public class AzisterweaponsedecoModBlocks {
 	public static final DeferredBlock<Block> BEIRAC_TUFO = REGISTRY.register("beirac_tufo", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 
 	public static final DeferredBlock<Block> BEIRAF_ANDE = REGISTRY.register("beiraf_ande", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
-	public static final DeferredBlock<Block> BEIRAF_AREIA = REGISTRY.register("beiraf_areia", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
-	public static final DeferredBlock<Block> BEIRAF_AREIAV = REGISTRY.register("beiraf_areiav", net.azister.azisterweaponsedeco.block.BeiraLampBlock::new);
+	public static final DeferredBlock<Block> BEIRAF_AREIA = REGISTRY.register("beiraf_areia", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
+	public static final DeferredBlock<Block> BEIRAF_AREIAV = REGISTRY.register("beiraf_areiav", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRAF_BARRO = REGISTRY.register("beiraf_barro", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRAF_COBRE = REGISTRY.register("beiraf_cobre", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
 	public static final DeferredBlock<Block> BEIRAF_COBRE1 = REGISTRY.register("beiraf_cobre1", net.azister.azisterweaponsedeco.block.BeiraBlock::new);
@@ -99,7 +99,7 @@ public class AzisterweaponsedecoModBlocks {
 
 	public static final DeferredBlock<Block> BEIRACF_ANDE = REGISTRY.register("beiracf_ande", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRACF_AREIA = REGISTRY.register("beiracf_areia", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
-	public static final DeferredBlock<Block> BEIRACF_AREIAV = REGISTRY.register("beiracf_areiav", net.azister.azisterweaponsedeco.block.BeiraLampBlock::new);
+	public static final DeferredBlock<Block> BEIRACF_AREIAV = REGISTRY.register("beiracf_areiav", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRACF_BARRO = REGISTRY.register("beiracf_barro", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRACF_COBRE = REGISTRY.register("beiracf_cobre", net.azister.azisterweaponsedeco.block.BeiracBlock::new);
 	public static final DeferredBlock<Block> BEIRACF_COBRE1 = REGISTRY.register("beiracf_cobre1", net.azister.azisterweaponsedeco.block.BeiracBlock::new);

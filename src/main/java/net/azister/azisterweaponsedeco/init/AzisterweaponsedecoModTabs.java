@@ -26,6 +26,7 @@ public class AzisterweaponsedecoModTabs {
 
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIAV.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_BARRO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_COBRE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_COBRE1.get().asItem());
@@ -50,8 +51,10 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_TIJOLO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_TUFO.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_AREIA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_AREIAV.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_BARRO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_COBRE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_COBRE1.get().asItem());
@@ -65,20 +68,21 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_DARKP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_DEEP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_DIOR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_DPRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_END.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_END_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_GRAN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_N_HELL_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_PEDRA.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_DPRISM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_PRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_TIJOLO.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_PRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC_TUFO.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_AREIA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_AREIAV.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_BARRO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_COBRE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_COBRE1.get().asItem());
@@ -92,19 +96,21 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_DARKP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_DEEP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_DIOR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_DPRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_END.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_END_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_GRAN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_N_HELL_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_PEDRA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_PRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_TIJOLO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_TUFO.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_PRISM.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRAF_DPRISM.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_AREIA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_AREIAV.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_BARRO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_COBRE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_COBRE1.get().asItem());
@@ -118,20 +124,21 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_DARKP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_DEEP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_DIOR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_DPRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_END.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_END_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_GRAN.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_N_HELL_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_PEDRA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_PRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_TIJOLO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_TUFO.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_PRISM.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRACF_DPRISM.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_ANDE_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIA_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIAV_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_BARRO_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_COBRE_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_COBRE1_LAMP.get().asItem());
@@ -145,17 +152,17 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_DARKP_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_DEEP_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_DIOR_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRA_DPRISM_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_END_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_END_P_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_GOLDEN_MARBLE_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_GRAN_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_N_HELL_MARBLE_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_PEDRA_LAMP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.BEIRA_PRISM_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_QUARTZ_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_TIJOLO_LAMP.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_TUFO_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRA_PRISM_LAMP.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.BEIRA_DPRISM_LAMP.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_AMAR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_AZUL.get().asItem());
@@ -242,6 +249,69 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.MIST_GRAN_GMARB.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.MIST_GRAN_HMARB.get().asItem());
 
+		/*
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_ANDE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_AREIA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_AREIAV.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_BARRO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBRE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBRE1.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBRE2.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBRE3.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBREC.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBREC1.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBREC2.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_COBREC3.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_DARK.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_DARKP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_DEEP.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_DIOR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_DPRISM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_END.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_END_P.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_GOLDEN_MARBLE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_GRAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_N_HELL_MARBLE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_PEDRA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_PRISM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_QUARTZ.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TIJOLO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TUFO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_AMAR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_AZUL.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_AZULZIN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_BRANCO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_CIAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_CINZA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_CINZINHA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LARAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LIMA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_MAGEN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_MARR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_PRETO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_ROSA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_ROXO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_T.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TAMAR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TAZUL.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TAZULZIN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TBRANCO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TCIAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TCINZA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TCINZINHA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TLARAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TLIMA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TMAGEN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TMARR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TPRETO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TROSA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TROXO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TVERD.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TVERM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_VERD.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_VERM.get().asItem());
+		*/
+
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_HELL_MARBLE.get().asItem());
@@ -261,6 +331,12 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.EXPOSED_COPPER_AXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.COPPER_AXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_COPPER_AXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.REF_IRON_AXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.WINNERAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.OXIDIZED_COPPER_PICKAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.WEATHERED_COPPER_PICKAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.EXPOSED_COPPER_PICKAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.COPPER_PICKAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.REF_COPPER_PICKAXE.get());
 	}).build());
 }
