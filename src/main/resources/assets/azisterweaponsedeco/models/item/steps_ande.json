@@ -1,5 +1,5 @@
 {
-  "parent": "azisterweaponsedeco:block/steps",
+  "parent": "azisterweaponsedeco:block/steps_ande",
   "display": {
     "thirdperson": {
       "rotation": [

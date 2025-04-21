@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "azisterweaponsedeco:n_hell_marble"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:steps_n_hell_marble",
+    "count": 2
+  }
+}

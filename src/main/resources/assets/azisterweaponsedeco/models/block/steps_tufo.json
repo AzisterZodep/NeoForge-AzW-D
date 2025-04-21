@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/tuff_bricks",
+    "particle": "minecraft:block/tuff_bricks",
+    "0": "minecraft:block/tuff_bricks"
+  },
+  "render_type": "solid"
+}

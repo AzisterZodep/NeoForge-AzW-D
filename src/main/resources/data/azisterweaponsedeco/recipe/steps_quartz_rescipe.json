@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:quartz_bricks"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:steps_quartz",
+    "count": 2
+  }
+}

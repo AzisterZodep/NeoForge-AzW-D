@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:prismarine_bricks"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:steps_prism",
+    "count": 2
+  }
+}

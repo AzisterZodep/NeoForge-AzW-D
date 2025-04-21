@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "azisterweaponsedeco:block/hellmarble2",
+    "particle": "azisterweaponsedeco:block/hellmarble2",
+    "0": "azisterweaponsedeco:block/hellmarble2"
+  },
+  "render_type": "solid"
+}

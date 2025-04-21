@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/exposed_copper",
+    "particle": "minecraft:block/exposed_copper",
+    "0": "minecraft:block/exposed_copper"
+  },
+  "render_type": "solid"
+}

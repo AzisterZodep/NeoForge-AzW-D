@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/mud_bricks",
+    "particle": "minecraft:block/mud_bricks",
+    "0": "minecraft:block/mud_bricks"
+  },
+  "render_type": "solid"
+}

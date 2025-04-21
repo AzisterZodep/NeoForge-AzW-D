@@ -22,7 +22,7 @@ public class AzisterweaponsedecoModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> AZISTER_DECO = REGISTRY.register("azister_deco", () -> CreativeModeTab.builder().title(Component.translatable("item_group.azisterweaponsedeco.azister_deco")).icon(() -> new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PEDRA.get())).displayItems((parameters, tabData) -> {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.STEPS.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.IRONPANEL.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIA.get().asItem());
@@ -249,7 +249,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.MIST_GRAN_GMARB.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.MIST_GRAN_HMARB.get().asItem());
 
-		/*
+
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AREIA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AREIAV.get().asItem());
@@ -276,7 +276,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_PRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TIJOLO.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.STEPS_TUFO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TUFO.get().asItem());/*
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AMAR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AZUL.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AZULZIN.get().asItem());

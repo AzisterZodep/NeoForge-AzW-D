@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:waxed_cut_copper"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:steps_cobrec",
+    "count": 2
+  }
+}

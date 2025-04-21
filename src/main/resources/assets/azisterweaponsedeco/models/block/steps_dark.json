@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/polished_blackstone_bricks",
+    "particle": "minecraft:block/polished_blackstone_bricks",
+    "0": "minecraft:block/polished_blackstone_bricks"
+  },
+  "render_type": "solid"
+}
