@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywallc",
+  "textures": {
+    "all": "minecraft:block/lime_wool",
+    "particle": "minecraft:block/lime_wool",
+    "0": "minecraft:block/lime_wool"
+  },
+  "render_type": "solid"
+}

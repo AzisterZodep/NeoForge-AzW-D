@@ -21,13 +21,28 @@ public class CrushItemProcedure {
 			ItemStack slot0Item = getSlotItem(entity, 0);
 			if (slot4Item.getItem() == Blocks.LANTERN.asItem()) {
 				handleLanternRecipes(entity, slot0Item);
+			} else if(slot4Item.getItem() == Blocks.STONE.asItem()) {
+				handleOresRecipes(entity, slot0Item);
 			} else {
 				handleSpecialCases(entity, slot0Item);
 			}
 			removeSlotItem(entity, 0, 1);
 		}
 	}
-
+	private static void handleOresRecipes(Entity entity, ItemStack slot0Item) {
+		switch (slot0Item.getItem().toString()) {
+			case "minecraft:raw_iron":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_IRON_ORE.get()));
+				break;
+			case "minecraft:raw_copper":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_COPPER_ORE.get()));
+				break;
+			case "minecraft:coal":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_COAL_ORE.get()));
+				break;
+		}
+		removeSlotItem(entity, 4, 1);
+	}
 	private static void handleLanternRecipes(Entity entity, ItemStack slot0Item) {
 		switch (slot0Item.getItem().toString()) {
 			case "minecraft:polished_andesite":
@@ -127,6 +142,54 @@ public class CrushItemProcedure {
 				setOutputSlot(entity, 1, new ItemStack(Items.IRON_NUGGET));
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get()));
 				setOutputSlot(entity, 3, new ItemStack(Items.MAGENTA_DYE));
+				break;
+			case "minecraft:yellow_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LAMAR.get()));
+				break;
+			case "minecraft:blue_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LAZUL.get()));
+				break;
+			case "minecraft:light_blue_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LAZULZIN.get()));
+				break;
+			case "minecraft:white_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LBRANCO.get()));
+				break;
+			case "minecraft:cyan_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LCIAN.get()));
+				break;
+			case "minecraft:gray_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LCINZA.get()));
+				break;
+			case "minecraft:light_gray_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LCINZINHA.get()));
+				break;
+			case "minecraft:orange_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LLARAN.get()));
+				break;
+			case "minecraft:lime_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LLIMA.get()));
+				break;
+			case "minecraft:magenta_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LMAGEN.get()));
+				break;
+			case "minecraft:brown_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LMARR.get()));
+				break;
+			case "minecraft:black_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LPRETO.get()));
+				break;
+			case "minecraft:pink_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LROSA.get()));
+				break;
+			case "minecraft:purple_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LROXO.get()));
+				break;
+			case "minecraft:green_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LVERD.get()));
+				break;
+			case "minecraft:red_wool":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LVERM.get()));
 				break;
 			case "minecraft:nether_star":
 				setOutputSlot(entity, 1, new ItemStack(AzisterweaponsedecoModItems.ESENCIA_MORTAL.get()));

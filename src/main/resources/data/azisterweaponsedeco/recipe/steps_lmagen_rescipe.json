@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:magenta_wool"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:steps_lmagen",
+    "count": 2
+  }
+}

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "azisterweaponsedeco:steps"
+    "item": "azisterweaponsedeco:ironpanel"
   },
   "result": {
     "id": "azisterweaponsedeco:beira",

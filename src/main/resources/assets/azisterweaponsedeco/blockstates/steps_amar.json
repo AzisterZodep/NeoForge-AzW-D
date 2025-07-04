@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "orientation=up_north": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 0,
+      "y": 180
+    },
+    "orientation=up_south": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 0,
+      "y": 0
+    },
+    "orientation=up_east": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 0,
+      "y": 270
+    },
+    "orientation=up_west": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 0,
+      "y": 90
+    },
+    "orientation=down_south": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 180,
+      "y": 180
+    },
+    "orientation=down_north": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 180,
+      "y": 0
+    },
+    "orientation=down_west": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 180,
+      "y": 270
+    },
+    "orientation=down_east": {
+      "model": "azisterweaponsedeco:block/steps_amar",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

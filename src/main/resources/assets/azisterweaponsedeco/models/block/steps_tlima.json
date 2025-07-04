@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/lime_terracotta",
+    "particle": "minecraft:block/lime_terracotta",
+    "0": "minecraft:block/lime_terracotta"
+  },
+  "render_type": "solid"
+}

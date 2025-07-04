@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:brown_wool"
+  },
+  "result": {
+    "id": "azisterweaponsedeco:steps_lmarr",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/cyan_concrete",
+    "particle": "minecraft:block/cyan_concrete",
+    "0": "minecraft:block/cyan_concrete"
+  },
+  "render_type": "solid"
+}

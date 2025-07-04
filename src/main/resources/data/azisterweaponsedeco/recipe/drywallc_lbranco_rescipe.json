@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "azisterweaponsedeco:drywall_lbranco"
+    },
+    {
+      "item": "azisterweaponsedeco:drywall_lbranco"
+    }
+  ],
+  "result": {
+    "id": "azisterweaponsedeco:drywallc_lbranco",
+    "count": 1
+  }
+}

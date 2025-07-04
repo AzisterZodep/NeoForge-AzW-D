@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/light_blue_wool",
+    "particle": "minecraft:block/light_blue_wool",
+    "0": "minecraft:block/light_blue_wool"
+  },
+  "render_type": "solid"
+}

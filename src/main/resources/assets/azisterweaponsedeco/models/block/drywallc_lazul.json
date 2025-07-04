@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/drywallc",
+  "textures": {
+    "all": "minecraft:block/blue_wool",
+    "particle": "minecraft:block/blue_wool",
+    "0": "minecraft:block/blue_wool"
+  },
+  "render_type": "solid"
+}

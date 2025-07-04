@@ -1,0 +1,9 @@
+{
+  "parent": "azisterweaponsedeco:custom/steps",
+  "textures": {
+    "all": "minecraft:block/magenta_wool",
+    "particle": "minecraft:block/magenta_wool",
+    "0": "minecraft:block/magenta_wool"
+  },
+  "render_type": "solid"
+}

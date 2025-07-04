@@ -24,6 +24,10 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.IRONPANEL.get().asItem());
 
+		tabData.accept(AzisterweaponsedecoModItems.DECO_COAL_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_COPPER_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_IRON_ORE.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIAV.get().asItem());
@@ -197,6 +201,22 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_TVERM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_VERD.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_VERM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LAMAR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LAZUL.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LAZULZIN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LBRANCO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LCIAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LCINZA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LCINZINHA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LLARAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LLIMA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LMAGEN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LMARR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LPRETO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LROSA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LROXO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LVERD.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALL_LVERM.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_AMAR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_AZUL.get().asItem());
@@ -231,6 +251,22 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_TVERM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_VERD.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_VERM.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LAMAR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LAZUL.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LAZULZIN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LBRANCO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LCIAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LCINZA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LCINZINHA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LLARAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LLIMA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LMAGEN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LMARR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LPRETO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LROSA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LROXO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LVERD.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DRYWALLC_LVERM.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.MIST.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.MIST_ANDE_GMARB.get().asItem());
@@ -276,7 +312,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_PRISM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_QUARTZ.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TIJOLO.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.STEPS_TUFO.get().asItem());/*
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_TUFO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AMAR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AZUL.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_AZULZIN.get().asItem());
@@ -291,6 +327,8 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_PRETO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_ROSA.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_ROXO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_VERD.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_VERM.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_T.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TAMAR.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TAZUL.get().asItem());
@@ -308,15 +346,29 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TROXO.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TVERD.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_TVERM.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.STEPS_VERD.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.STEPS_VERM.get().asItem());
-		*/
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LAMAR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LAZUL.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LAZULZIN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LBRANCO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LCIAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LCINZA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LCINZINHA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LLARAN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LLIMA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LMAGEN.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LMARR.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LPRETO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LROSA.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LROXO.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LVERD.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.STEPS_LVERM.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_HELL_MARBLE.get().asItem());
 
 	}).build());
+
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> AZISTER_WEAPONS = REGISTRY.register("azister_weapons", () -> CreativeModeTab.builder().title(Component.translatable("item_group.azisterweaponsedeco.azister_weapons")).icon(() -> new ItemStack(AzisterweaponsedecoModItems.TWILIGHT_SPIKE_SWORD.get())).displayItems((parameters, tabData) -> {
 		tabData.accept(AzisterweaponsedecoModItems.OXIDIZED_COPPER_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.WEATHERED_COPPER_SWORD.get());
