@@ -24,9 +24,17 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.BEIRAC.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.IRONPANEL.get().asItem());
 
+		tabData.accept(AzisterweaponsedecoModItems.DECO_ANCIENT_DEBRIS.get().asItem());
+
 		tabData.accept(AzisterweaponsedecoModItems.DECO_COAL_ORE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DECO_COPPER_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_DIAMOND_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_EMERALD_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_GOLD_ORE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.DECO_IRON_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_LAPIS_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_QUARTZ_ORE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.DECO_REDSTONE_ORE.get().asItem());
 
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_ANDE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.BEIRA_AREIA.get().asItem());

@@ -27,7 +27,7 @@ public class StepsBlock extends Block implements SimpleWaterloggedBlock {
 	public StepsBlock() {
 		super(BlockBehaviour.Properties.of()
 				.sound(SoundType.STONE)
-				.strength(3.5f, 6f)
+				.strength(1f, 4f)
 				.requiresCorrectToolForDrops()
 				.noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));

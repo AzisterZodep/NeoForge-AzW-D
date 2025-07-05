@@ -21,26 +21,48 @@ public class CrushItemProcedure {
 			ItemStack slot0Item = getSlotItem(entity, 0);
 			if (slot4Item.getItem() == Blocks.LANTERN.asItem()) {
 				handleLanternRecipes(entity, slot0Item);
-			} else if(slot4Item.getItem() == Blocks.STONE.asItem()) {
-				handleOresRecipes(entity, slot0Item);
+			} else if(slot4Item.getItem() == Blocks.STONE.asItem() || slot4Item.getItem() == Blocks.NETHERRACK.asItem()) {
+				handleOresRecipes(entity, slot0Item, slot4Item.getItem() == Blocks.NETHERRACK.asItem());
 			} else {
 				handleSpecialCases(entity, slot0Item);
 			}
 			removeSlotItem(entity, 0, 1);
 		}
 	}
-	private static void handleOresRecipes(Entity entity, ItemStack slot0Item) {
-		switch (slot0Item.getItem().toString()) {
-			case "minecraft:raw_iron":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_IRON_ORE.get()));
+	private static void handleOresRecipes(Entity entity, ItemStack slot0Item, boolean n) {
+		if(!n){switch (slot0Item.getItem().toString()) {
+			case "minecraft:coal":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_COAL_ORE.get()));
 				break;
 			case "minecraft:raw_copper":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_COPPER_ORE.get()));
 				break;
-			case "minecraft:coal":
-				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_COAL_ORE.get()));
+			case "minecraft:diamond":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_DIAMOND_ORE.get()));
 				break;
-		}
+			case "minecraft:emerald":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_EMERALD_ORE.get()));
+				break;
+			case "minecraft:raw_gold":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_GOLD_ORE.get()));
+				break;
+			case "minecraft:raw_iron":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_IRON_ORE.get()));
+				break;
+			case "minecraft:lapis_lazuli":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_LAPIS_ORE.get()));
+				break;
+			case "minecraft:redstone":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_REDSTONE_ORE.get()));
+				break;
+		}}else{switch (slot0Item.getItem().toString()) {
+			case "minecraft:netherite_scrap":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_ANCIENT_DEBRIS.get()));
+				break;
+			case "minecraft:quartz":
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModBlocks.DECO_QUARTZ_ORE.get()));
+				break;
+		}}
 		removeSlotItem(entity, 4, 1);
 	}
 	private static void handleLanternRecipes(Entity entity, ItemStack slot0Item) {

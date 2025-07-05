@@ -150,7 +150,14 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> CRUSHERBLOCK = block((DeferredHolder)AzisterweaponsedecoModBlocks.CRUSHERBLOCK);
    public static final DeferredItem<Item> DECO_COAL_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_COAL_ORE);
    public static final DeferredItem<Item> DECO_COPPER_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_COPPER_ORE);
+   public static final DeferredItem<Item> DECO_DIAMOND_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_DIAMOND_ORE);
+   public static final DeferredItem<Item> DECO_EMERALD_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_EMERALD_ORE);
+   public static final DeferredItem<Item> DECO_GOLD_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_GOLD_ORE);
    public static final DeferredItem<Item> DECO_IRON_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_IRON_ORE);
+   public static final DeferredItem<Item> DECO_LAPIS_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_LAPIS_ORE);
+   public static final DeferredItem<Item> DECO_ANCIENT_DEBRIS = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_ANCIENT_DEBRIS);
+   public static final DeferredItem<Item> DECO_QUARTZ_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_QUARTZ_ORE);
+   public static final DeferredItem<Item> DECO_REDSTONE_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_REDSTONE_ORE);
    public static final DeferredItem<Item> DEEPSLATE_SHARD = REGISTRY.register("deepslate_shard", net.azister.azisterweaponsedeco.item.DeepslateShardItem::new);
    public static final DeferredItem<Item> DRYWALLC_AMAR = block((DeferredHolder)AzisterweaponsedecoModBlocks.DRYWALLC_AMAR);
    public static final DeferredItem<Item> DRYWALLC_AZUL = block((DeferredHolder)AzisterweaponsedecoModBlocks.DRYWALLC_AZUL);
