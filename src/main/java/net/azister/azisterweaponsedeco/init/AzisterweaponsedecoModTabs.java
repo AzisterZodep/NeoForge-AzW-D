@@ -384,6 +384,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.COPPER_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_COPPER_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_IRON_SWORD.get());
+		tabData.accept(AzisterweaponsedecoModItems.REF_GOLD_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.AZISTER_DREAM.get());
 		tabData.accept(AzisterweaponsedecoModItems.TWILIGHT_SPIKE_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.OXIDIZED_COPPER_AXE.get());
@@ -392,6 +393,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.COPPER_AXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_COPPER_AXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_IRON_AXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.REF_GOLD_AXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.WINNERAXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.OXIDIZED_COPPER_PICKAXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.WEATHERED_COPPER_PICKAXE.get());

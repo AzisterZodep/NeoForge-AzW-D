@@ -362,7 +362,7 @@ public class AzisterweaponsedecoModBlocks {
 	public static final DeferredBlock<Block> DECO_GOLD_ORE = REGISTRY.register("deco_gold_ore", net.azister.azisterweaponsedeco.block.DecoOre::new);
 	public static final DeferredBlock<Block> DECO_IRON_ORE = REGISTRY.register("deco_iron_ore", net.azister.azisterweaponsedeco.block.DecoOre::new);
 	public static final DeferredBlock<Block> DECO_LAPIS_ORE = REGISTRY.register("deco_lapis_ore", net.azister.azisterweaponsedeco.block.DecoOre::new);
-	public static final DeferredBlock<Block> DECO_ANCIENT_DEBRIS = REGISTRY.register("deco_ancient_debris", net.azister.azisterweaponsedeco.block.DecoOre::new);
+	public static final DeferredBlock<Block> DECO_ANCIENT_DEBRIS = REGISTRY.register("deco_ancient_debris", net.azister.azisterweaponsedeco.block.DecoOreR::new);
 	public static final DeferredBlock<Block> DECO_QUARTZ_ORE = REGISTRY.register("deco_quartz_ore", net.azister.azisterweaponsedeco.block.DecoOre::new);
 	public static final DeferredBlock<Block> DECO_REDSTONE_ORE = REGISTRY.register("deco_redstone_ore", net.azister.azisterweaponsedeco.block.DecoOre::new);
 }

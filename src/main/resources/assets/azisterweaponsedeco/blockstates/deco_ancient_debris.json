@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=y": {
       "model": "azisterweaponsedeco:block/deco_ancient_debris"
+    },
+    "axis=z": {
+      "model": "azisterweaponsedeco:block/deco_ancient_debris",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "azisterweaponsedeco:block/deco_ancient_debris",
+      "x": 90,
+      "y": 90
     }
   }
 }

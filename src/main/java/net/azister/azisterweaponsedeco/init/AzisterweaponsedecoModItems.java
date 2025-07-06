@@ -292,8 +292,10 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> EXPOSED_COPPER_SWORD = REGISTRY.register("exposed_copper_sword", net.azister.azisterweaponsedeco.item.ExpoCopperSwordItem::new);
    public static final DeferredItem<Item> COPPER_SWORD = REGISTRY.register("copper_sword", net.azister.azisterweaponsedeco.item.CopperSwordItem::new);
    public static final DeferredItem<Item> REF_COPPER_SWORD = REGISTRY.register("ref_copper_sword", net.azister.azisterweaponsedeco.item.RefCopperSwordItem::new);
-   public static final DeferredItem<Item> REF_IRON_AXE = REGISTRY.register("ref_iron_axe", net.azister.azisterweaponsedeco.item.RefIronAxeItem::new);
    public static final DeferredItem<Item> REF_IRON_SWORD = REGISTRY.register("ref_iron_sword", net.azister.azisterweaponsedeco.item.RefIronSwordItem::new);
+   public static final DeferredItem<Item> REF_IRON_AXE = REGISTRY.register("ref_iron_axe", net.azister.azisterweaponsedeco.item.RefIronAxeItem::new);
+   public static final DeferredItem<Item> REF_GOLD_SWORD = REGISTRY.register("ref_gold_sword", net.azister.azisterweaponsedeco.item.RefGoldSwordItem::new);
+   public static final DeferredItem<Item> REF_GOLD_AXE = REGISTRY.register("ref_gold_axe", net.azister.azisterweaponsedeco.item.RefGoldAxeItem::new);
    public static final DeferredItem<Item> STAR = REGISTRY.register("star", net.azister.azisterweaponsedeco.item.StarItem::new);
    public static final DeferredItem<Item> IRONPANEL = block((DeferredHolder)AzisterweaponsedecoModBlocks.IRONPANEL);
    public static final DeferredItem<Item> STEPS_ANDE = block((DeferredHolder)AzisterweaponsedecoModBlocks.STEPS_ANDE);

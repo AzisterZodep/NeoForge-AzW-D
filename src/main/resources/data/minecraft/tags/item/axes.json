@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "azisterweaponsedeco:winneraxe"
+    "azisterweaponsedeco:winneraxe",
+    "azisterweaponsedeco:ref_iron_axe",
+    "azisterweaponsedeco:ref_gold_axe"
   ]
 }
