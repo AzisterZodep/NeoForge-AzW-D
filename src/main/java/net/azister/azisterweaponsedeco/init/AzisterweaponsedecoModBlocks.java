@@ -351,6 +351,8 @@ public class AzisterweaponsedecoModBlocks {
 	public static final DeferredBlock<Block> N_GOLDEN_MARBLE = REGISTRY.register("n_golden_marble", net.azister.azisterweaponsedeco.block.NGoldenMarbleBlock::new);
 	public static final DeferredBlock<Block> N_GOLDEN_MARBLE_P = REGISTRY.register("n_golden_marble_p", net.azister.azisterweaponsedeco.block.NGoldenMarbleBlock::new);
 	public static final DeferredBlock<Block> N_HELL_MARBLE = REGISTRY.register("n_hell_marble", net.azister.azisterweaponsedeco.block.NHellMarbleBlock::new);
+	public static final DeferredBlock<Block> N_JADE = REGISTRY.register("n_jade", net.azister.azisterweaponsedeco.block.NHellMarbleBlock::new);
+	public static final DeferredBlock<Block> N_JADE_P = REGISTRY.register("n_jade_p", net.azister.azisterweaponsedeco.block.NHellMarbleBlock::new);
 	public static final DeferredBlock<Block> IRONPANEL = REGISTRY.register("ironpanel", net.azister.azisterweaponsedeco.block.NGoldenMarbleBlock::new);
 
 	public static final DeferredBlock<Block> CRUSHERBLOCK = REGISTRY.register("crusherblock", net.azister.azisterweaponsedeco.block.CrusherblockBlock::new);

@@ -277,6 +277,8 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> N_GOLDEN_MARBLE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE);
    public static final DeferredItem<Item> N_GOLDEN_MARBLE_P = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE_P);
    public static final DeferredItem<Item> N_HELL_MARBLE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_HELL_MARBLE);
+   public static final DeferredItem<Item> N_JADE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_JADE);
+   public static final DeferredItem<Item> N_JADE_P = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_JADE_P);
    public static final DeferredItem<Item> OXIDIZED_COPPER_AXE = REGISTRY.register("oxidized_copper_axe", net.azister.azisterweaponsedeco.item.OxiCopperAxeItem::new);
    public static final DeferredItem<Item> WEATHERED_COPPER_AXE = REGISTRY.register("weathered_copper_axe", net.azister.azisterweaponsedeco.item.WeatherCopperAxeItem::new);
    public static final DeferredItem<Item> EXPOSED_COPPER_AXE = REGISTRY.register("exposed_copper_axe", net.azister.azisterweaponsedeco.item.ExpoCopperAxeItem::new);

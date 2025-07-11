@@ -19,14 +19,25 @@ import net.minecraft.world.entity.npc.VillagerProfession;
 public class AzisterweaponsedecoModTrades {
 	@SubscribeEvent
 	public static void registerWanderingTrades(WandererTradesEvent event) {
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 2), new ItemStack(Items.GOLD_INGOT, 5), new ItemStack(AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE.get()), 10, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(
+				new ItemStack(Items.EMERALD, 2),
+				new ItemStack(Items.GOLD_INGOT, 5),
+				new ItemStack(AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE.get()), 10, 5, 0.05f));
 	}
 
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == VillagerProfession.CLERIC) {
 			event.getTrades().get(5)
-					.add(new BasicItemListing(new ItemStack(AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE_P.get(), 8), new ItemStack(Blocks.EMERALD_BLOCK), new ItemStack(AzisterweaponsedecoModBlocks.N_HELL_MARBLE.get()), 10, 5, 0.05f));
+					.add(new BasicItemListing(
+							new ItemStack(AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE_P.get(), 8),
+							new ItemStack(Blocks.EMERALD_BLOCK),
+							new ItemStack(AzisterweaponsedecoModBlocks.N_HELL_MARBLE.get()), 10, 5, 0.05f));
+			event.getTrades().get(5)
+					.add(new BasicItemListing(
+							new ItemStack(AzisterweaponsedecoModBlocks.N_HELL_MARBLE.get(), 8),
+							new ItemStack(Blocks.EMERALD_BLOCK),
+							new ItemStack(AzisterweaponsedecoModBlocks.N_JADE.get()), 10, 5, 0.05f));
 		}
 	}
 }

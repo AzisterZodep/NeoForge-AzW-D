@@ -374,6 +374,8 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_HELL_MARBLE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.N_JADE.get().asItem());
+		tabData.accept(AzisterweaponsedecoModItems.N_JADE_P.get().asItem());
 
 	}).build());
 

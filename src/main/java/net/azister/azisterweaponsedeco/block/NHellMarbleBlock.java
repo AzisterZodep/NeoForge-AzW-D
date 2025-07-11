@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class NHellMarbleBlock extends Block {
 	public NHellMarbleBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(4f, 8f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5f, 8f));
 	}
 
 	@Override
