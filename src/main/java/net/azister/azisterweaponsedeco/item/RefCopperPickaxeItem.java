@@ -39,7 +39,7 @@ public class RefCopperPickaxeItem extends CopperPickaxeCode
       }
 
       public int getEnchantmentValue() {
-/* 43 */         return 5;
+/* 43 */         return 0;
 /*    */       }
 
 

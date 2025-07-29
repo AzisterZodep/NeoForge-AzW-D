@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "azisterweaponsedeco:block/jade2",
+    "particle": "azisterweaponsedeco:block/jade2"
+  },
+  "render_type": "solid"
+}

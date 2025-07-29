@@ -34,7 +34,7 @@ import net.minecraft.world.level.block.Block;
 /*    */
 /*    */
 /*    */       public int getEnchantmentValue() {
-/* 37 */         return 5;
+/* 37 */         return 0;
 /*    */       }
 /*    */
 /*    */

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/drywall_laran",
   "pools": [
     {
       "rolls": 1.0,

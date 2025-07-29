@@ -24,7 +24,9 @@ public class PilarBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public PilarBlock(Properties redstoneConductor) {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3.5f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of()
+				.sound(SoundType.STONE).strength(3.5f, 6f)
+				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 

@@ -278,7 +278,6 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> N_GOLDEN_MARBLE_P = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE_P);
    public static final DeferredItem<Item> N_HELL_MARBLE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_HELL_MARBLE);
    public static final DeferredItem<Item> N_JADE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_JADE);
-   public static final DeferredItem<Item> N_JADE_P = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_JADE_P);
    public static final DeferredItem<Item> OXIDIZED_COPPER_AXE = REGISTRY.register("oxidized_copper_axe", net.azister.azisterweaponsedeco.item.OxiCopperAxeItem::new);
    public static final DeferredItem<Item> WEATHERED_COPPER_AXE = REGISTRY.register("weathered_copper_axe", net.azister.azisterweaponsedeco.item.WeatherCopperAxeItem::new);
    public static final DeferredItem<Item> EXPOSED_COPPER_AXE = REGISTRY.register("exposed_copper_axe", net.azister.azisterweaponsedeco.item.ExpoCopperAxeItem::new);
@@ -293,6 +292,8 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> WEATHERED_COPPER_SWORD = REGISTRY.register("weathered_copper_sword", net.azister.azisterweaponsedeco.item.WeatherCopperSwordItem::new);
    public static final DeferredItem<Item> EXPOSED_COPPER_SWORD = REGISTRY.register("exposed_copper_sword", net.azister.azisterweaponsedeco.item.ExpoCopperSwordItem::new);
    public static final DeferredItem<Item> COPPER_SWORD = REGISTRY.register("copper_sword", net.azister.azisterweaponsedeco.item.CopperSwordItem::new);
+   public static final DeferredItem<Item> JADE_SWORD = REGISTRY.register("jade_sword", net.azister.azisterweaponsedeco.item.JadeSwordItem::new);
+   public static final DeferredItem<Item> REAL_SWORD = REGISTRY.register("real_sword", net.azister.azisterweaponsedeco.item.RealSwordItem::new);
    public static final DeferredItem<Item> REF_COPPER_SWORD = REGISTRY.register("ref_copper_sword", net.azister.azisterweaponsedeco.item.RefCopperSwordItem::new);
    public static final DeferredItem<Item> REF_IRON_SWORD = REGISTRY.register("ref_iron_sword", net.azister.azisterweaponsedeco.item.RefIronSwordItem::new);
    public static final DeferredItem<Item> REF_IRON_AXE = REGISTRY.register("ref_iron_axe", net.azister.azisterweaponsedeco.item.RefIronAxeItem::new);

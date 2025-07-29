@@ -1,4 +1,3 @@
-
 package net.azister.azisterweaponsedeco.block;
 
 import net.minecraft.world.level.material.MapColor;
@@ -31,8 +30,16 @@ public class BeiraBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public BeiraBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1.8f, 7f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
+		super(BlockBehaviour.Properties.of()
+				.mapColor(MapColor.COLOR_GRAY)
+				.instrument(NoteBlockInstrument.BASEDRUM)
+				.sound(SoundType.STONE)
+				.strength(1.8f, 7f)
+				.noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
+		this.registerDefaultState(this.stateDefinition.any()
+				.setValue(FACING, Direction.NORTH)
+				.setValue(WATERLOGGED, false));
 	}
 
 	@Override

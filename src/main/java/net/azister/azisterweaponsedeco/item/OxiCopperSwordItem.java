@@ -34,7 +34,7 @@
 /*    */ 
 /*    */       
 /*    */       public int getEnchantmentValue() {
-/* 37 */         return 5;
+/* 37 */         return 0;
 /*    */       }
 /*    */ 
 /*    */       

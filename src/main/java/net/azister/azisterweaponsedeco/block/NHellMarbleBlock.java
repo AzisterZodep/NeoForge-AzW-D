@@ -8,10 +8,16 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.material.MapColor;
 
 public class NHellMarbleBlock extends Block {
 	public NHellMarbleBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5f, 8f));
+		super(BlockBehaviour.Properties.of()
+				.mapColor(MapColor.COLOR_RED)
+				.instrument(NoteBlockInstrument.BASEDRUM)
+				.sound(SoundType.STONE)
+				.strength(5f, 8f)
+				.requiresCorrectToolForDrops());
 	}
 
 	@Override

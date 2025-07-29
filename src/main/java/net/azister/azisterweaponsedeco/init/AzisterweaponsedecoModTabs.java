@@ -375,7 +375,6 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_HELL_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_JADE.get().asItem());
-		tabData.accept(AzisterweaponsedecoModItems.N_JADE_P.get().asItem());
 
 	}).build());
 
@@ -387,6 +386,8 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.REF_COPPER_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_IRON_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_GOLD_SWORD.get());
+		tabData.accept(AzisterweaponsedecoModItems.JADE_SWORD.get());
+		tabData.accept(AzisterweaponsedecoModItems.REAL_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.AZISTER_DREAM.get());
 		tabData.accept(AzisterweaponsedecoModItems.TWILIGHT_SPIKE_SWORD.get());
 		tabData.accept(AzisterweaponsedecoModItems.OXIDIZED_COPPER_AXE.get());

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "azswords",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "e": {
+      "item": "azisterweaponsedeco:ref_gold_sword"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:real_sword",
+    "count": 1
+  }
+}

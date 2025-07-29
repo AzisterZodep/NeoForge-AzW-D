@@ -1,6 +1,8 @@
-
 package net.azister.azisterweaponsedeco.block;
 
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -15,7 +17,11 @@ public class BeiraLampBlock extends PilarBlock implements SimpleWaterloggedBlock
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public BeiraLampBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3.5f, 6f).lightLevel(s -> 12).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of()
+				.sound(SoundType.STONE).strength(3.5f, 6f)
+				.lightLevel(s -> 12)
+				.noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 }

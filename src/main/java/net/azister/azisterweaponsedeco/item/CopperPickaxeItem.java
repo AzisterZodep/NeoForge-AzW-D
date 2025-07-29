@@ -36,7 +36,7 @@ public class CopperPickaxeItem extends CopperPickaxeCode {
       }
 
       public int getEnchantmentValue() {
-/* 42 */         return 5;
+/* 42 */         return 0;
 /*    */       }
 
       public Ingredient getRepairIngredient() {

@@ -35,7 +35,7 @@ import net.minecraft.world.level.block.Block;
        }
 
        public int getEnchantmentValue() {
-/* 42 */         return 2;
+/* 42 */         return 0;
 /*    */       }
 
        public Ingredient getRepairIngredient() {

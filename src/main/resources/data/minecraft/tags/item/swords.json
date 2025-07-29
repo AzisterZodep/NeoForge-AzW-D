@@ -2,8 +2,11 @@
   "replace": false,
   "values": [
     "azisterweaponsedeco:azister_dream",
+    "azisterweaponsedeco:ref_copper_sword",
     "azisterweaponsedeco:ref_iron_sword",
     "azisterweaponsedeco:ref_gold_sword",
+    "azisterweaponsedeco:jade_sword",
+    "azisterweaponsedeco:real_sword",
     "azisterweaponsedeco:twilight_spike_sword"
   ]
 }

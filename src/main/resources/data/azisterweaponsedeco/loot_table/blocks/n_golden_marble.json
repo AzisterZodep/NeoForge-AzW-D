@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/n_golden_marble",
   "pools": [
     {
       "rolls": 1.0,

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/beira_end_p",
   "pools": [
     {
       "rolls": 1.0,

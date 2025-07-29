@@ -165,6 +165,11 @@ public class CrushItemProcedure {
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get()));
 				setOutputSlot(entity, 3, new ItemStack(Items.MAGENTA_DYE));
 				break;
+			case "azisterweaponsedeco:n_jade":
+				setOutputSlot(entity, 1, new ItemStack(Items.RAW_COPPER));
+				setOutputSlot(entity, 2, new ItemStack(Items.IRON_NUGGET));
+				setOutputSlot(entity, 3, new ItemStack(Items.GREEN_DYE));
+				break;
 			case "minecraft:yellow_wool":
 				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.DRYWALL_LAMAR.get()));
 				break;

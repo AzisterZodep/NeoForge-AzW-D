@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "azswords",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "azisterweaponsedeco:n_jade"
+    },
+    "b": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:jade_sword",
+    "count": 1
+  }
+}

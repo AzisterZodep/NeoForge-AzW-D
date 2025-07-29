@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "nether_wastes",
+  "features": "azisterweaponsedeco:n_hell_marble",
+  "step": "underground_ores"
+}

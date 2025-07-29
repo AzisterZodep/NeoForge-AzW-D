@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/beirac_darkp",
   "pools": [
     {
       "rolls": 1.0,

@@ -13,22 +13,24 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class StepsBlock extends Block implements SimpleWaterloggedBlock {
-
 	public static final EnumProperty<StepOrientation> ORIENTATION = EnumProperty.create("orientation", StepOrientation.class);
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public StepsBlock() {
 		super(BlockBehaviour.Properties.of()
+				.mapColor(MapColor.COLOR_GRAY)
+				.instrument(NoteBlockInstrument.BASEDRUM)
 				.sound(SoundType.STONE)
 				.strength(1f, 4f)
-				.requiresCorrectToolForDrops()
 				.noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any()

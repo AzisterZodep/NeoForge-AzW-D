@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": [{
+      "model": "azisterweaponsedeco:block/n_jade", "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/n_jade1", "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/n_jade2", "weight": 1
+    },
+    {
+      "model": "azisterweaponsedeco:block/n_jade3", "weight": 1
+    }]
+  }
+}

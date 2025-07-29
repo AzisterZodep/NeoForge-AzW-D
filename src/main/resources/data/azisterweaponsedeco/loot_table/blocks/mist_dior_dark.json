@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/mist_dior_dark",
   "pools": [
     {
       "rolls": 1.0,

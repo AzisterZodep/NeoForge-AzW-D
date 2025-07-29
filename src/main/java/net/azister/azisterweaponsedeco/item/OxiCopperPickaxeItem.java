@@ -28,7 +28,7 @@ import net.minecraft.world.level.block.Block;
 /* 32 */         return BlockTags.INCORRECT_FOR_STONE_TOOL;
 /*    */       }
 
-       public int getEnchantmentValue() { return 5; }
+       public int getEnchantmentValue() { return 0; }
 
        public Ingredient getRepairIngredient() {
 /* 42 */         return null;

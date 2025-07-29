@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/beiracf_tijolo",
   "pools": [
     {
       "rolls": 1.0,

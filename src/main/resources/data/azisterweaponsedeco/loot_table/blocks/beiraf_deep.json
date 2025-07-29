@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "azisterweaponsedeco:blocks/beiraf_deep",
   "pools": [
     {
       "rolls": 1.0,
