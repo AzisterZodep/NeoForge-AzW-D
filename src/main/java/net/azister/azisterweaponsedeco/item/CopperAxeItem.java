@@ -18,7 +18,7 @@ import net.minecraft.world.level.block.Block;
    private static final Tier TOOL_TIER = new Tier()
      {
        public int getUses() {
-/* 22 */         return 40;
+/* 22 */         return 32;
 /*    */       }
 
        public float getSpeed() {

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "azswords",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:flint_pickaxe",
+    "count": 1
+  }
+}

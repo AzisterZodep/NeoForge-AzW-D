@@ -1,53 +1,46 @@
 package net.azister.azisterweaponsedeco.item;
 
-
 import net.azister.azisterweaponsedeco.init.AzisterweaponsedecoModItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 
-public class RefCopperPickaxeItem extends CopperPickaxeCode
-{
-  public ItemStack newItem() {
-    return new ItemStack((ItemLike)AzisterweaponsedecoModItems.COPPER_PICKAXE.get());
-  }
+public class FlintPickaxeItem extends FlintPickaxeCode {
   private static final Tier TOOL_TIER = new Tier()
     {
       public int getUses() {
-/* 23 */         return 64;
+/* 22 */         return 4;
 /*    */       }
 
-
       public float getSpeed() {
-        return 6.0F;
+        return 0.5F;
       }
-
 
       public float getAttackDamageBonus() {
-         return 2.0F;
+         return 3.0F;
       }
 
-      public int getLevel() { return 2;}
+      public int getLevel() { return 0; }
 
       public TagKey<Block> getIncorrectBlocksForDrops() {
-        return BlockTags.INCORRECT_FOR_IRON_TOOL;
+        return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
       }
 
       public int getEnchantmentValue() {
-/* 43 */         return 0;
+/* 42 */         return 0;
 /*    */       }
-
-
       public Ingredient getRepairIngredient() {
-/* 48 */         return null;
-/*    */       }
+        return Ingredient.of(new ItemStack(Items.FLINT));
+      }
     };
-  public RefCopperPickaxeItem() {
-    super(TOOL_TIER, (new Properties()).attributes(PickaxeItem.createAttributes(TOOL_TIER, 0.0F, -2.6F)));
+
+  public FlintPickaxeItem() {
+    super(TOOL_TIER, (new Properties()).attributes(PickaxeItem.createAttributes(TOOL_TIER, 1.0F, -3.0F)));
   }
 }

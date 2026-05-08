@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.Block;
    private static final Tier TOOL_TIER = new Tier()
      {
        public int getUses() {
-/* 17 */         return 150;
+/* 17 */         return 128;
 /*    */       }
 
        public float getSpeed() {
@@ -22,10 +22,10 @@ import net.minecraft.world.level.block.Block;
          return 2.0F;
        }
 
-       public int getLevel() { return 2; }
+       public int getLevel() { return 0; }
 
        public TagKey<Block> getIncorrectBlocksForDrops() {
-/* 32 */         return BlockTags.INCORRECT_FOR_STONE_TOOL;
+/* 32 */         return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
 /*    */       }
 
        public int getEnchantmentValue() { return 0; }

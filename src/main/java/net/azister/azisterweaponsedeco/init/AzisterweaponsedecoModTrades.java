@@ -21,8 +21,12 @@ public class AzisterweaponsedecoModTrades {
 	public static void registerWanderingTrades(WandererTradesEvent event) {
 		event.getGenericTrades().add(new BasicItemListing(
 				new ItemStack(Items.EMERALD, 2),
-				new ItemStack(Items.GOLD_INGOT, 5),
+				new ItemStack(Items.GOLD_INGOT, 2),
 				new ItemStack(AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE.get()), 10, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(
+				new ItemStack(Items.EMERALD, 3),
+				new ItemStack(Items.GOLD_INGOT, 2),
+				new ItemStack(AzisterweaponsedecoModBlocks.N_CHROMITE.get()), 10, 5, 0.05f));
 	}
 
 	@SubscribeEvent

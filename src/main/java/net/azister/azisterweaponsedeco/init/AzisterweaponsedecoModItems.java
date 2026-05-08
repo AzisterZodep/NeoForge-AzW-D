@@ -147,6 +147,7 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> BEIRA_PRISM_LAMP = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_PRISM_LAMP);
    public static final DeferredItem<Item> BEIRA_DPRISM = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_DPRISM);
    public static final DeferredItem<Item> BEIRA_DPRISM_LAMP = block((DeferredHolder)AzisterweaponsedecoModBlocks.BEIRA_DPRISM_LAMP);
+   public static final DeferredItem<Item> CHROMIUM = REGISTRY.register("chromium", net.azister.azisterweaponsedeco.item.Chromium::new);
    public static final DeferredItem<Item> CRUSHERBLOCK = block((DeferredHolder)AzisterweaponsedecoModBlocks.CRUSHERBLOCK);
    public static final DeferredItem<Item> DECO_COAL_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_COAL_ORE);
    public static final DeferredItem<Item> DECO_COPPER_ORE = block((DeferredHolder)AzisterweaponsedecoModBlocks.DECO_COPPER_ORE);
@@ -258,6 +259,8 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> DRYWALL_LVERD = block((DeferredHolder)AzisterweaponsedecoModBlocks.DRYWALL_LVERD);
    public static final DeferredItem<Item> DRYWALL_LVERM = block((DeferredHolder)AzisterweaponsedecoModBlocks.DRYWALL_LVERM);
    public static final DeferredItem<Item> ESENCIA_MORTAL = REGISTRY.register("esencia_mortal", net.azister.azisterweaponsedeco.item.EsenciaMortalItem::new);
+   public static final DeferredItem<Item> FLINT_AXE = REGISTRY.register("flint_axe", net.azister.azisterweaponsedeco.item.FlintAxeItem::new);
+   public static final DeferredItem<Item> FLINT_PICKAXE = REGISTRY.register("flint_pickaxe", net.azister.azisterweaponsedeco.item.FlintPickaxeItem::new);
    public static final DeferredItem<Item> MIST = block((DeferredHolder)AzisterweaponsedecoModBlocks.MIST);
    public static final DeferredItem<Item> MIST_ANDE_GMARB = block((DeferredHolder)AzisterweaponsedecoModBlocks.MIST_ANDE_GMARB);
    public static final DeferredItem<Item> MIST_ANDE_HMARB = block((DeferredHolder)AzisterweaponsedecoModBlocks.MIST_ANDE_HMARB);
@@ -274,6 +277,7 @@ public class AzisterweaponsedecoModItems {
    public static final DeferredItem<Item> MIST_GRAN_ANDE = block((DeferredHolder)AzisterweaponsedecoModBlocks.MIST_GRAN_ANDE);
    public static final DeferredItem<Item> MIST_GRAN_GMARB = block((DeferredHolder)AzisterweaponsedecoModBlocks.MIST_GRAN_GMARB);
    public static final DeferredItem<Item> MIST_GRAN_HMARB = block((DeferredHolder)AzisterweaponsedecoModBlocks.MIST_GRAN_HMARB);
+   public static final DeferredItem<Item> N_CHROMITE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_CHROMITE);
    public static final DeferredItem<Item> N_GOLDEN_MARBLE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE);
    public static final DeferredItem<Item> N_GOLDEN_MARBLE_P = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_GOLDEN_MARBLE_P);
    public static final DeferredItem<Item> N_HELL_MARBLE = block((DeferredHolder)AzisterweaponsedecoModBlocks.N_HELL_MARBLE);

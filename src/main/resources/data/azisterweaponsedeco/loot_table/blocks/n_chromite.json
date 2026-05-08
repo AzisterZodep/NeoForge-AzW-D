@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "azisterweaponsedeco:n_chromite"
+        },{
+          "type": "minecraft:item",
+          "name": "azisterweaponsedeco:chromium",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

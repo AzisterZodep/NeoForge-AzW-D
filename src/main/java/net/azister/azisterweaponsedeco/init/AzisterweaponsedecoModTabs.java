@@ -17,6 +17,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.DEEPSLATE_SHARD.get());
 		tabData.accept(AzisterweaponsedecoModItems.STAR.get());
 		tabData.accept(AzisterweaponsedecoModItems.ESENCIA_MORTAL.get());
+		tabData.accept(AzisterweaponsedecoModItems.CHROMIUM.get());
 		tabData.accept(AzisterweaponsedecoModItems.CRUSHERBLOCK.get().asItem());
 	}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> AZISTER_DECO = REGISTRY.register("azister_deco", () -> CreativeModeTab.builder().title(Component.translatable("item_group.azisterweaponsedeco.azister_deco")).icon(() -> new ItemStack(AzisterweaponsedecoModBlocks.BEIRA_PEDRA.get())).displayItems((parameters, tabData) -> {
@@ -371,6 +372,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_LVERD.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.STEPS_LVERM.get().asItem());
 
+		tabData.accept(AzisterweaponsedecoModItems.N_CHROMITE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_GOLDEN_MARBLE_P.get().asItem());
 		tabData.accept(AzisterweaponsedecoModItems.N_HELL_MARBLE.get().asItem());
@@ -403,5 +405,7 @@ public class AzisterweaponsedecoModTabs {
 		tabData.accept(AzisterweaponsedecoModItems.EXPOSED_COPPER_PICKAXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.COPPER_PICKAXE.get());
 		tabData.accept(AzisterweaponsedecoModItems.REF_COPPER_PICKAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.FLINT_PICKAXE.get());
+		tabData.accept(AzisterweaponsedecoModItems.FLINT_AXE.get());
 	}).build());
 }

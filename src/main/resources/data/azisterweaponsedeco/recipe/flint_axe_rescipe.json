@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "azswords",
+  "category": "equipment",
+  "pattern": [
+    "aa ",
+    "ab ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "azisterweaponsedeco:flint_axe",
+    "count": 1
+  }
+}

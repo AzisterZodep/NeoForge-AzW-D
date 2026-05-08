@@ -35,13 +35,12 @@ import java.util.ArrayList;
 
 @Mod("azisterweaponsedeco")
 public class AzisterweaponsedecoMod {
-    public static final Logger LOGGER = LogManager.getLogger(AzisterweaponsedecoMod.class);
     public static final String MODID = "azisterweaponsedeco";
 
     public AzisterweaponsedecoMod(IEventBus modEventBus) {
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.register(DisableVanillaToolsEvent.class);
         modEventBus.addListener(this::registerNetworking);
-
         AzisterweaponsedecoModBlocks.REGISTRY.register(modEventBus);
         AzisterweaponsedecoModBlockEntities.REGISTRY.register(modEventBus);
         AzisterweaponsedecoModItems.REGISTRY.register(modEventBus);

@@ -14,7 +14,7 @@
 /* 14 */   private static final Tier TOOL_TIER = new Tier()
 /*    */     {
 /*    */       public int getUses() {
-/* 17 */         return 200;
+/* 17 */         return 128;
 /*    */       }
 /*    */ 
 /*    */       

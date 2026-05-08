@@ -155,6 +155,10 @@ public class CrushItemProcedure {
 
 	private static void handleSpecialCases(Entity entity, ItemStack slot0Item) {
 		switch (slot0Item.getItem().toString()) {
+			case "azisterweaponsedeco:n_chromite":
+				setOutputSlot(entity, 1, new ItemStack(Items.IRON_NUGGET));
+				setOutputSlot(entity, 2, new ItemStack(AzisterweaponsedecoModItems.CHROMIUM.get()));
+				break;
 			case "azisterweaponsedeco:n_golden_marble":
 				setOutputSlot(entity, 1, new ItemStack(Items.GOLD_NUGGET));
 				setOutputSlot(entity, 2, new ItemStack(Items.QUARTZ));

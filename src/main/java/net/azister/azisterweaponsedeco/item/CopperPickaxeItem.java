@@ -18,7 +18,7 @@ public class CopperPickaxeItem extends CopperPickaxeCode {
   private static final Tier TOOL_TIER = new Tier()
     {
       public int getUses() {
-/* 22 */         return 15;
+/* 22 */         return 32;
 /*    */       }
 
       public float getSpeed() {
@@ -29,10 +29,10 @@ public class CopperPickaxeItem extends CopperPickaxeCode {
 /* 32 */         return 2.0F;
 /*    */       }
 
-      public int getLevel() { return 2; }
+      public int getLevel() { return 1; }
 
       public TagKey<Block> getIncorrectBlocksForDrops() {
-        return BlockTags.INCORRECT_FOR_IRON_TOOL;
+        return BlockTags.INCORRECT_FOR_STONE_TOOL;
       }
 
       public int getEnchantmentValue() {
